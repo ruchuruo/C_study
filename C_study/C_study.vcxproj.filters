@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1-项目1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2-项目2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4-第一个C语言项目.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6-初识数据类型.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7-初识常量变量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8-初识变量的作用域和声明周期.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8-初识变量的作用域和声明周期2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9-什么是常量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10-初识字符串.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12-初识转义字符.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15-初识选择语句.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16-初识循环语句.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17-初识函数和数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18-初识操作符.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20-初识常见关键字.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20-初识常见关键字add.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23-常量和宏.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25-初识指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26-初识结构体.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29-分支语句ifelse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30-分支语句switch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31-循环语句while1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32-循环语句while2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="33-循环语句for1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35-循环语句dowhile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36-猜数字游戏.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40-goto语句.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="42-函数讲解.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43-函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45-函数的调用.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47-函数的嵌套调用和链式访问.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48-函数递归.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50-函数递归2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="52-函数递归3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="57-一维数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="58-二维数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="59-数组作为函数参数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="69-操作符详解.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="71-操作符详解2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="73-操作符详解3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="74-操作符详解4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="74-操作符详解4表达式求值.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="76-操作符详解5算术转换.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="79-指针初阶.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="80-指针初阶2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="82-指针和数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="84-结构体初阶.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="85-调试技巧.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="87-调试技巧2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="89-调试技巧3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="90-模拟实现字符串相关函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="92-调试模拟实现字符串相关函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="96-数据的存储.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="98-数据的存储2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="100-数据的存储3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="101-浮点型的存储.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="103-指针进阶.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="105-指针进阶2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="112-指针进阶3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="114-指针进阶4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="116-指针进阶5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="117-指针进阶6库函数qsort排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="119-指针进阶7冒泡排序改进.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="121-指针进阶8指针练习1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="122-指针练习1讲解.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="124-指针练习2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="124-指针练习2讲解.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="126-指针练习3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="126-指针练习3讲解.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="132.字符串函数及模拟实现strlen和strcpy和strcat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="134-字符串函数及模拟实现strcmp和strncmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="136-字符串函数及模拟实现strtok和strstr和strerror.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="137-内存函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="139-内存函数2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="141-内存函数+自定义类型.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="142-自定义类型.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="144-自定义类型2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="146-自定义类型3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="147-联合体.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="153-动态内存管理.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="155-动态内存分配1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="157-动态内存分配2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="159-柔性数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="164-文件1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="166-文件2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="167-文件3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="169-预处理1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="171-预处理2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="172-预处理3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="174-预处理4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="176-预处理5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="996-test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="997-操作符优先级.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="998-关机.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="999-习题测试.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

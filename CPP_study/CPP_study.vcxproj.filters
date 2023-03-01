@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2-第一个C++程序-C++书写HelloWorld.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3-程序的注释-单行注释和多行注释.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4-变量-变量的使用-变量的意义.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5-常量-常量与变量的区别-常量的使用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6-关键字-C++常用的编程关键字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7-标识符命名规则.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8-数据类型-整型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9-数据类型-sizeof关键字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10-数据类型-实型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11-数据类型-字符型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12-数据类型-转义字符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13-数据类型-字符串类型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14-数据类型-布尔类型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15-数据类型-数据的输入.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16-运算符-算术运算符-加减乘除运算.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17-运算符-算术运算符-取模运算.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18-运算符-算术运算符-递增递减.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19-运算符-赋值运算符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20-运算符-比较运算符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21-运算符-逻辑运算符-非.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22-运算符-逻辑运算符-与.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23-运算符-逻辑运算符-或.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24-程序流程结构-选择结构-单行if语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25-程序流程结构-选择结构-多行if语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26-程序流程结构-选择结构-多条件if语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27-程序流程结构-选择结构-嵌套if语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28-程序流程结构-选择结构案例-三只小猪称体重.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29-程序流程结构-选择结构案例-三目运算符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30-程序流程结构-选择结构-switch语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31-程序流程结构-循环结构-while语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32-程序流程结构-循环结构案例-猜数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="33-程序流程结构-循环结构-dowhile语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34-程序流程结构-循环结构案例-水仙花数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35-程序流程结构-循环结构-for循环.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36-程序流程结构-循环结构案例-敲桌子.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37-程序流程结构-嵌套循环.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38-程序流程结构-嵌套循环案例-乘法口诀表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39-程序流程结构-跳转语句-break语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40-程序流程结构-跳转语句-continue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41-程序流程结构-跳转语句-goto.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="42-数组-一维数组定义方式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43-数组-一维数组-数组名.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44-数组-一维数组案例-五只小猪称体重.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45-数组-一维数组案例-元素逆置.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46-数组-一维数组-冒泡排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47-数组-二维数组定义方式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48-数组-二维数组-数组名.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49-数组-二维数组案例-考试成绩统计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50-函数-函数的定义.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="51-函数-函数的调用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="52-函数-值传递.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="53-函数-常见的样式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54-函数-函数的声明.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="55-函数-函数的分文件编写.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="55-函数-函数的分文件编写function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="56-指针-指针的定义和使用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="57-指针-指针所占内存空间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="58-指针-空指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="59-指针-野指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="60-指针-const修饰指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="61-指针-指针和数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="62-指针-指针和函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="63-指针-指针配合数组和函数案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="64-结构体-结构体定义和使用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="65-结构体-结构体数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="66-结构体-结构体指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="67-结构体-结构体嵌套结构体.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="68-结构体-结构体做函数参数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="69-结构体-结构体中const使用场景.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="70-结构体-结构体案例1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="71-结构体-结构体案例2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="72-01-通讯录管理系统-系统功能介绍及展示.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0-目录.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="73-02-通讯录管理系统-创建项目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="74-03-通讯录管理系统-菜单功能.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="75-04-通讯录管理系统-退出功能实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="76-05-通讯录管理系统-添加联系人-结构体设计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="77-06-通讯录管理系统-添加联系人-功能实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="78-07-通讯录管理系统-显示联系人.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="79-08-通讯录管理系统-删除联系人-检测联系人是否存在.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="80-09-通讯录管理系统-删除联系人-功能实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="81-10-通讯录管理系统-查找联系人.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="82-11-通讯录管理系统-修改联系人.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="83-12-通讯录管理系统-清空通讯录.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="84-01-程序的内存模型-内存四区-代码区.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="85-02-程序的内存模型-内存四区-全局区.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="86-03-程序的内存模型-内存四区-栈区.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="87-04-程序的内存模型-内存四区-堆区.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="88-05-程序的内存模型-new运算符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="55-函数-函数的分文件编写.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

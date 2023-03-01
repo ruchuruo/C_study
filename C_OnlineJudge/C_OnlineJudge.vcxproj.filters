@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="99乘法口诀表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BC54-获得月份天数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BC68-X形图案.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BC76-公务员面试.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BC77-有序序列插入一个数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="猜名次.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="猜凶手.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="拆分数字.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="打印3的倍数的数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="打印菱形.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="打印闰年.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="打印水仙花数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="打印素数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="打印杨辉三角.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="打印整数二进制的奇数位和偶数位.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="递归实现n的k次方.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="调整奇数偶数顺序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分数求和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="喝汽水问题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="计算求和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="计算一个数的每位之和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="交换两个整形变量(不创建临时变量).c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="交换奇偶位.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="判断当前机器的字节序(联合体).c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="判断当前机器的字节序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求n的阶乘.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求第n个斐波那契数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求两个数的最大公约数(辗转相除).c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求两个数的最大公约数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求两个数二进制中不同位的个数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求两个整数的较大值.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求整数最大值.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求字符串长度.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="使用指针打印数组内容.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数9的个数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数组元素冒泡排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="统计二进制中1的个数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="杨氏矩阵.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="一句话的单词倒置(三步翻转法).c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="找单身狗.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="整形有序数组二分查找(函数).c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="整形有序数组二分查找.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="自定义乘法口诀表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串逆序(递归).c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串逆序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串旋转结果.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串左旋.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_1-两数之和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_9-回文数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_13-罗马数字转整数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_14-最长公共前缀.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_20-有效的括号.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_1480-一维数组的动态和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_383-赎金信.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_206-反转链表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_27-移除元素.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_26-删除有序数组中的重复项.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_88-合并两个有序数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_203-移除链表元素.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_876-链表的中间结点.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指Offer_22-链表中倒数第k个节点.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_21-合并两个有序链表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_35-搜索插入位置.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_58-最后一个单词的长度.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_66-加一.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题_02-04-分割链表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_67-二进制求和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指Offer-II_027-回文链表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_160-相交链表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_141-环形链表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_142-环形链表-II.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_138-复制带随机指针的链表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_225-用队列实现栈.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_232-用栈实现队列.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_622-设计循环队列.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

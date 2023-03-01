@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="My_function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2-什么是数据结构？.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3-时间复杂度.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4-嵌套循环时间复杂度的计算.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5-双重循环时间复杂度的计算.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6-常数循环的时间复杂度.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7-strchr的时间复杂度.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8-冒泡排序的时间复杂度.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10-二分查找的时间复杂度.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11-斐波那契的时间复杂度.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12-空间复杂度及常见案例.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13-时间复杂度空间复杂度相关练习题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14-什么是线性表？什么是顺序表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15-顺序表的接口函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16-顺序表的实现.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18-顺序表的实现.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19-OJ题目讲解.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20-顺序表的讲解2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21-顺序表面试题_删除有序数组中的重复项.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22-顺序表面试题_合并两个有序数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24-单链表讲解.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25-单链表的实现1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27-单链表的实现2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28-链表面试题_移除链表元素.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29-单链表的实现3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="995-test2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="996-test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="My_function.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41-双向链表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44-顺序表和链表的区别和联系.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45-栈和队列.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46-特殊矩阵的压缩存储.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

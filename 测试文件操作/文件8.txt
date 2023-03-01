@@ -1,0 +1,47 @@
+void 文件读取结束的判定_复制文件()
+{
+	printf("文件读取结束的判定_复制文件\n");
+
+	if ((判断文件是否存在("..\\测试文件操作\\文件8.txt")) == 0)
+	{
+		printf("文件可能不存在\n");
+		return;
+	}
+	if ((判断文件是否存在("..\\测试文件操作\\文件8 - 副本.txt")) == 0)
+	{
+		printf("文件可能不存在\n");
+		return;
+	}
+
+
+
+	FILE* p读 = fopen("..\\测试文件操作\\文件8.txt", "r");
+	if (p读 == NULL)
+	{
+		return;
+	}
+
+	FILE* p写 = fopen("..\\测试文件操作\\文件8 - 副本.txt", "w");
+	if (p写 == NULL)
+	{
+		fclose(p读);
+		p读 = NULL;
+		return;
+	}
+
+	// 都打开成功，读写文件
+	int ch = 0;
+	
+	while ((ch = fgetc(p读)) != EOF)
+	{
+		fputc(ch, p写);
+	}
+
+	// 关闭文件
+	fclose(p读);
+	p读 = NULL;
+	fclose(p写);
+	p写 = NULL;
+
+	n2(2, "-------- ", 4);
+}
