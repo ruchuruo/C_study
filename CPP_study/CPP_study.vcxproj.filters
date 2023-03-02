@@ -285,6 +285,18 @@
     <ClCompile Include="88-05-程序的内存模型-new运算符.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="89-06-C++中的引用-引用的基本语法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="90-07-C++中的引用-引用的注意事项.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="91-08-C++中的引用-引用做函数参数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="92-09-C++中的引用-引用做函数返回值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
