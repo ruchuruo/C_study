@@ -297,6 +297,18 @@
     <ClCompile Include="92-09-C++中的引用-引用做函数返回值.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="93-10-C++中的引用-引用的本质.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="94-11-C++中的引用-常量引用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="95-12-函数高级-函数的默认参数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="96-13-函数高级-函数的占位参数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
