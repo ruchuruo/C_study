@@ -309,6 +309,27 @@
     <ClCompile Include="96-13-函数高级-函数的占位参数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="97-14-函数高级-函数重载-基本语法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="98-15-函数高级-函数重载-注意事项.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="99-16-类和对象-封装-属性和行为作为整体.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="100-17-类和对象-封装-案例-设计学生类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="101-18-类和对象-封装-访问权限.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9999-程序命名规则.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="102-19-类和对象-封装-c++中class和struct的区别.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
