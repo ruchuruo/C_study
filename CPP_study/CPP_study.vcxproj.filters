@@ -342,6 +342,12 @@
     <ClCompile Include="105-22-类和对象-封装-设计案例2-点和圆关系function.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="106-23-类和对象-对象特性-构造函数和析构函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="107-24-类和对象-对象特性-函数的分类以及调用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">

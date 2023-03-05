@@ -148,8 +148,16 @@
     <ClCompile Include="104-21-类和对象-封装-设计案例1-立方体类.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="105-22-类和对象-封装-设计案例2-点和圆关系.cpp" />
-    <ClCompile Include="105-22-类和对象-封装-设计案例2-点和圆关系function.cpp" />
+    <ClCompile Include="105-22-类和对象-封装-设计案例2-点和圆关系.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="105-22-类和对象-封装-设计案例2-点和圆关系function.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="106-23-类和对象-对象特性-构造函数和析构函数.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="107-24-类和对象-对象特性-函数的分类以及调用.cpp" />
     <ClCompile Include="11-数据类型-字符型.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
