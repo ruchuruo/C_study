@@ -142,6 +142,14 @@
     <ClCompile Include="102-19-类和对象-封装-c++中class和struct的区别.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="103-20-类和对象-封装-成员属性私有化.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="104-21-类和对象-封装-设计案例1-立方体类.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="105-22-类和对象-封装-设计案例2-点和圆关系.cpp" />
+    <ClCompile Include="105-22-类和对象-封装-设计案例2-点和圆关系function.cpp" />
     <ClCompile Include="11-数据类型-字符型.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -442,6 +450,7 @@
     <ClCompile Include="Function.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="105-22-类和对象-封装-设计案例2-点和圆关系.h" />
     <ClInclude Include="55-函数-函数的分文件编写.h" />
     <ClInclude Include="Function.h" />
   </ItemGroup>

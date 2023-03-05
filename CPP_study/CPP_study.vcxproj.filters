@@ -330,12 +330,27 @@
     <ClCompile Include="102-19-类和对象-封装-c++中class和struct的区别.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="103-20-类和对象-封装-成员属性私有化.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="104-21-类和对象-封装-设计案例1-立方体类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="105-22-类和对象-封装-设计案例2-点和圆关系.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="105-22-类和对象-封装-设计案例2-点和圆关系function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="55-函数-函数的分文件编写.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="105-22-类和对象-封装-设计案例2-点和圆关系.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
