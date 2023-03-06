@@ -348,6 +348,18 @@
     <ClCompile Include="107-24-类和对象-对象特性-函数的分类以及调用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="108-25-类和对象-对象特性-拷贝构造函数调用时机.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="109-26-类和对象-对象特性-构造函数调用规则.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="110-27-类和对象-对象特性-深拷贝与浅拷贝.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="111-28-类和对象-对象特性-初始化列表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
