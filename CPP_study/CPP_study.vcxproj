@@ -172,7 +172,16 @@
     <ClCompile Include="110-27-类和对象-对象特性-深拷贝与浅拷贝.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="111-28-类和对象-对象特性-初始化列表.cpp" />
+    <ClCompile Include="111-28-类和对象-对象特性-初始化列表.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="112-29-类和对象-对象特性-类对象作为类成员.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="113-30和31-类和对象-静态成员.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="114-32-类和对象-对象特性-成员变量和成员函数分开存储.cpp" />
     <ClCompile Include="12-数据类型-转义字符.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
