@@ -181,7 +181,16 @@
     <ClCompile Include="113-30和31-类和对象-静态成员.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="114-32-类和对象-对象特性-成员变量和成员函数分开存储.cpp" />
+    <ClCompile Include="114-32-类和对象-对象特性-成员变量和成员函数分开存储.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="115-33-类和对象-对象特性-this指针的用途.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="116-34-类和对象-对象特性-空指针访问成员函数.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="117-35-类和对象-对象特性-const修饰成员函数.cpp" />
     <ClCompile Include="12-数据类型-转义字符.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -369,6 +369,15 @@
     <ClCompile Include="114-32-类和对象-对象特性-成员变量和成员函数分开存储.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="115-33-类和对象-对象特性-this指针的用途.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="116-34-类和对象-对象特性-空指针访问成员函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="117-35-类和对象-对象特性-const修饰成员函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
