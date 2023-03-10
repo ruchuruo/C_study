@@ -378,6 +378,15 @@
     <ClCompile Include="117-35-类和对象-对象特性-const修饰成员函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="118-36-类和对象-友元-全局函数做友元.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="119-37-类和对象-友元-友元类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="120-38-类和对象-友元-成员函数做友元.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
