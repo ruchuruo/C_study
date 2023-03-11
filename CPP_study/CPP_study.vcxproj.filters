@@ -387,6 +387,12 @@
     <ClCompile Include="120-38-类和对象-友元-成员函数做友元.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="121-39-类和对象-C++运算符重载-加号运算符重载.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="122-40-类和对象-C++运算符重载-左移运算符重载.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
