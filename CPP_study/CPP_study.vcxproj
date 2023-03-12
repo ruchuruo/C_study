@@ -211,6 +211,7 @@
     <ClCompile Include="122-40-类和对象-C++运算符重载-左移运算符重载.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="123-41-类和对象-C++运算符重载-递增运算符重载.cpp" />
     <ClCompile Include="13-数据类型-字符串类型.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
