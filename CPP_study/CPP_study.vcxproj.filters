@@ -396,6 +396,9 @@
     <ClCompile Include="123-41-类和对象-C++运算符重载-递增运算符重载.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="124-42-类和对象-C++运算符重载-赋值运算符重载.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
