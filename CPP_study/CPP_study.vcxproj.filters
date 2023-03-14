@@ -399,6 +399,15 @@
     <ClCompile Include="124-42-类和对象-C++运算符重载-赋值运算符重载.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="125-43-类和对象-C++运算符重载-关系运算符重载.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9998-运算符重载%28运算符函数%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="126-44-类和对象-C++运算符重载-函数调用运算符重载.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
