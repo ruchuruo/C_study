@@ -408,6 +408,12 @@
     <ClCompile Include="126-44-类和对象-C++运算符重载-函数调用运算符重载.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="127-45-类和对象-继承-基本语法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="128-46-类和对象-继承-继承方式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
