@@ -414,6 +414,12 @@
     <ClCompile Include="128-46-类和对象-继承-继承方式.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="129-47-类和对象-继承-继承中的对象模型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="130-48-类和对象-继承-构造和析构顺序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
