@@ -441,6 +441,12 @@
     <ClCompile Include="137-55-类和对象-多态-案例1-计算器类.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="138-56-类和对象-多态-纯虚函数和抽象类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="139-57-类和对象-多态-案例2-制作饮品.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
