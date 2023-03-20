@@ -450,6 +450,12 @@
     <ClCompile Include="140-58-类和对象-多态-虚析构和纯虚析构.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="141-59-类和对象-多态-案例3-电脑组装需求分析.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="142-60-类和对象-多态-案例3-电脑组装具体实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
