@@ -456,6 +456,9 @@
     <ClCompile Include="142-60-类和对象-多态-案例3-电脑组装具体实现.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="143-61-C++文件操作-文本文件-写文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
