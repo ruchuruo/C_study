@@ -78,8 +78,6 @@
 						操作完毕，要关闭文件
 */
 
-// fopen("..\\测试文件操作\\文件2.txt", "r");
-
 #include <iostream>
 #include <fstream>// 包含头文件
 #include "Function.h"
@@ -88,14 +86,17 @@ using namespace std;
 
 void test1()
 {
+	// 判断文件是否存在，判断文件权限
+	if (fileAccess("..\\测试文件操作\\CPP_study_143-61-C++文件操作-文本文件-写文件.txt", 0) == 0){return;}
+
 	// 创建流对象
 	ofstream ofs;
 
 	// 打开文件
-	ofs.open("..\\测试文件操作\\143-61-C++文件操作-文本文件-写文件.txt", ios::out);
+	ofs.open("..\\测试文件操作\\CPP_study_143-61-C++文件操作-文本文件-写文件.txt", ios::out);
 
 	// 写数据
-	ofs << "143-61-C++文件操作-文本文件-写文件.txt" << endl;
+	ofs << "CPP_study_143-61-C++文件操作-文本文件-写文件.txt" << endl;
 	ofs << "abc" << endl;
 	ofs << "def" << endl;
 
@@ -105,7 +106,7 @@ void test1()
 
 int main()
 {
-	//fileAccess("..\\测试文件操作\\143-61-C++文件操作-文本文件-写文件.txt", 0);
+	test1();
 
 	return 0;
 }

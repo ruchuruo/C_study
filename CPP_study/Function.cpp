@@ -35,9 +35,11 @@ int digit(int num)
 }
 
 
-// 判断文件是否存在
+// 判断文件是否存在，判断文件权限
 int fileAccess(const char* FileName, int mode)
 {
+	// fopen("..\\测试文件操作\\文件2.txt", "r");
+
 	/*
 		int _access(const char* path,int mode);
 		int _waccess(const char* path,int mode);
@@ -76,19 +78,62 @@ int fileAccess(const char* FileName, int mode)
 		if (_access(FileName, mode) == 0)
 		{
 			// 文件存在
+			return 1;
+		}
+		else
+		{
+			printf("文件 不 存在\n");
+			return 0;
 		}
 
 		break;
+
 	case 2:
+		if (_access(FileName, mode) == 0)
+		{
+			// 文件可写
+			return 1;
+		}
+		else
+		{
+			printf("文件 不可 写\n");
+			return 0;
+		}
+
 		break;
+
 	case 4:
+		if (_access(FileName, mode) == 0)
+		{
+			// 文件可读
+			return 1;
+		}
+		else
+		{
+			printf("文件 不可 读\n");
+			return 0;
+		}
+
 		break;
+
 	case 6:
+		if (_access(FileName, mode) == 0)
+		{
+			// 文件可读写
+			return 1;
+		}
+		else
+		{
+			printf("文件 不可 读写\n");
+			return 0;
+		}
+
 		break;
+
 	default:
+		printf("模式错误\n");
+		return 0;
 		break;
 	}
-
-	
 }
 
