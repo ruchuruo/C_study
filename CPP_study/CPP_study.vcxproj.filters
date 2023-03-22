@@ -459,6 +459,12 @@
     <ClCompile Include="143-61-C++文件操作-文本文件-写文件.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="144-62-C++文件操作-文本文件-读文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="145-63-C++文件操作-二进制文件-写文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
