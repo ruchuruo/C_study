@@ -465,6 +465,69 @@
     <ClCompile Include="145-63-C++文件操作-二进制文件-写文件.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="146-64-C++文件操作-二进制文件-读文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="147-01-职工管理系统-需求分析以及案例展示.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="148-02-职工管理系统-创建项目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="149-03-职工管理系统-创建职工管理类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="150-04-职工管理系统-菜单功能实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="151-05-职工管理系统-退出系统功能实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="152-06-职工管理系统-职工抽象类和普通员工类实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="153-07-职工管理系统-经理类和老板类实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="154-08-职工管理系统-添加职工功能实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="155-09-职工管理系统-文件交互-写文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="156-10-职工管理系统-文件交互-读文件1-文件未创建.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="157-11-职工管理系统-文件交互-读文件2-文件为空.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="158-12-职工管理系统-文件交互-读文件3-统计人数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="159-13-职工管理系统-文件交互-读文件4-初始化完毕.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="160-14-职工管理系统-显示职工功能.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="161-15-职工管理系统-删除职工-判断职工是否存在.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="162-16-职工管理系统-删除职工-功能实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="163-17-职工管理系统-修改职工功能实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="164-18-职工管理系统-查找职工功能实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="165-19-职工管理系统-按照职工编号进行排序功能实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="166-20-职工管理系统-清空文件实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">

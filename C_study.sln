@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP_Game-猜数字", "CPP_G
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP_App-通讯录", "CPP_App-通讯录\CPP_App-通讯录.vcxproj", "{8F83386B-3A3D-4CF0-9D05-937AC306A0E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP_App-职工管理系统", "CPP_App-职工管理系统\CPP_App-职工管理系统.vcxproj", "{227BC2EB-07C5-4283-BC7B-D545554C6648}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{8F83386B-3A3D-4CF0-9D05-937AC306A0E0}.Release|x64.Build.0 = Release|x64
 		{8F83386B-3A3D-4CF0-9D05-937AC306A0E0}.Release|x86.ActiveCfg = Release|Win32
 		{8F83386B-3A3D-4CF0-9D05-937AC306A0E0}.Release|x86.Build.0 = Release|Win32
+		{227BC2EB-07C5-4283-BC7B-D545554C6648}.Debug|x64.ActiveCfg = Debug|x64
+		{227BC2EB-07C5-4283-BC7B-D545554C6648}.Debug|x64.Build.0 = Debug|x64
+		{227BC2EB-07C5-4283-BC7B-D545554C6648}.Debug|x86.ActiveCfg = Debug|Win32
+		{227BC2EB-07C5-4283-BC7B-D545554C6648}.Debug|x86.Build.0 = Debug|Win32
+		{227BC2EB-07C5-4283-BC7B-D545554C6648}.Release|x64.ActiveCfg = Release|x64
+		{227BC2EB-07C5-4283-BC7B-D545554C6648}.Release|x64.Build.0 = Release|x64
+		{227BC2EB-07C5-4283-BC7B-D545554C6648}.Release|x86.ActiveCfg = Release|Win32
+		{227BC2EB-07C5-4283-BC7B-D545554C6648}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
