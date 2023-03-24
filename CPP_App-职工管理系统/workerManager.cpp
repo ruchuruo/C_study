@@ -3,7 +3,7 @@
 
 
 
-WorkerManager::WorkerManager()
+WorkerManager::WorkerManager():initialization(0)
 {
 }
 

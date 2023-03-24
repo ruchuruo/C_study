@@ -1,11 +1,15 @@
 #pragma once
 
+/*
+	职工管理系统 类
+*/
+
 #include <iostream>
 #include "my_List.h"
 
 using namespace std;
 
-// 职工管理 类
+
 class WorkerManager
 {
 public:
@@ -21,5 +25,7 @@ public:
 
 private:
 
+	// 为0则未初始化
+	int initialization;
 };
 
