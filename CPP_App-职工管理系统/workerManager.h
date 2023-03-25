@@ -27,5 +27,11 @@ private:
 
 	// 为0则未初始化
 	int initialization;
+
+	// 记录人数个数
+	int m_EmpNum;
+
+	// 员工链表
+	EmpListNode* m_EmpListPhead;
 };
 

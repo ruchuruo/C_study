@@ -65,11 +65,34 @@ void test2()
 	delete worker;
 }
 
+void test3()
+{
+	Worker* worker = NULL;
+
+	EmpListNode en;
+	EmpListNode* phead = en.ListInit();
+
+	worker = new Employee(1, "张三", 1);
+	en.ListInsert(phead->getNextNode(), worker);
+
+	worker = new Manager(2, "李四", 2);
+	en.ListInsert(phead->getNextNode(), worker);
+
+	worker = new Boss(3, "王五", 3);
+	en.ListInsert(phead->getNextNode(), worker);
+
+	en.ListPrint(phead);
+	
+	delete worker;
+}
+
 int main()
 {
 	//test1();
 
-	test2();
+	//test2();
+
+	test3();
 
 	return 0;
 }
