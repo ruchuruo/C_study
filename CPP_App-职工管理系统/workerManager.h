@@ -5,6 +5,10 @@
 */
 
 #include <iostream>
+#include "worker.h"
+#include "employee.h"
+#include "manager.h"
+#include "boss.h"
 #include "my_List.h"
 
 using namespace std;
@@ -21,6 +25,21 @@ public:
 	// 退出管理程序
 	void exitSystem();
 
+	// 增加职工
+	void Add_Emp();
+
+	//删除职工
+	void Del_Emp();
+
+	//显示职工
+	void Show_Emp();
+
+	// 设置 员工链表头
+	void setEmpListPhead(EmpListNode* EmpListPhead);
+
+	// 获取 员工链表头
+	EmpListNode* getEmpListPhead();
+
 	~WorkerManager();
 
 private:
@@ -31,7 +50,10 @@ private:
 	// 记录人数个数
 	int m_EmpNum;
 
-	// 员工链表
+	// 链表
+	EmpListNode en;
+
+	// 员工链表头
 	EmpListNode* m_EmpListPhead;
 };
 

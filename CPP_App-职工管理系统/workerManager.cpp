@@ -3,8 +3,9 @@
 
 
 
-WorkerManager::WorkerManager():initialization(0)
+WorkerManager::WorkerManager():initialization(0), m_EmpNum(0)
 {
+	setEmpListPhead(en.ListInit());
 }
 
 WorkerManager::~WorkerManager()
@@ -31,4 +32,79 @@ void WorkerManager::ShowMenu()
 void WorkerManager::exitSystem()
 {
 
+}
+
+// 增加职工
+void WorkerManager::Add_Emp()
+{
+	int tmpId;      //职工编号
+	string tmpName; //职工姓名
+	int tmpDeptId;  //职工所在部门名称编号
+
+	
+	Worker* worker = NULL;
+
+	cout << "增加职工-职工编号>";
+	cin >> tmpId;
+
+	cout << "增加职工-职工姓名>";
+	cin >> tmpName;
+
+	cout << "增加职工-职工部门(3.老板 2.经理 1.员工)>";
+	cin >> tmpDeptId;
+	switch (tmpDeptId)
+	{
+	case 1:
+		worker = new Employee(tmpId, tmpName, tmpDeptId);
+		en.ListInsert(m_EmpListPhead->getNextNode(), worker);
+		m_EmpNum++;
+		break;
+
+	case 2:
+		worker = new Manager(tmpId, tmpName, tmpDeptId);
+		en.ListInsert(m_EmpListPhead->getNextNode(), worker);
+		m_EmpNum++;
+		break;
+
+	case 3:
+		worker = new Boss(tmpId, tmpName, tmpDeptId);
+		en.ListInsert(m_EmpListPhead->getNextNode(), worker);
+		m_EmpNum++;
+		break;
+
+	default:
+		cout << "添加失败" << endl;
+		break;
+	}
+	
+}
+
+//删除职工
+void WorkerManager::Del_Emp()
+{
+	cout << "删除职工-职工编号>";
+	int tmpId;// 职工编号
+	cin >> tmpId;
+
+	en.ListErase(en.ListFind(m_EmpListPhead, tmpId));
+
+	m_EmpNum--;
+}
+
+//显示职工
+void WorkerManager::Show_Emp()
+{
+	en.ListPrint(m_EmpListPhead);
+}
+
+// 设置 员工链表头
+void WorkerManager::setEmpListPhead(EmpListNode* EmpListPhead)
+{
+	m_EmpListPhead = EmpListPhead;
+}
+
+// 获取 员工链表头
+EmpListNode* WorkerManager::getEmpListPhead()
+{
+	return m_EmpListPhead;
 }

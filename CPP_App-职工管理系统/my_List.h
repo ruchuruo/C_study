@@ -44,7 +44,7 @@ public:
 	void ListPopFront(EmpListNode* phead);
 
 	// 双向链表查找
-	EmpListNode* ListFind(EmpListNode* phead, Worker* x);
+	EmpListNode* ListFind(EmpListNode* phead, int x);
 
 	// 双向链表在pos的前面进行插入
 	void ListInsert(EmpListNode* pos, Worker* x);

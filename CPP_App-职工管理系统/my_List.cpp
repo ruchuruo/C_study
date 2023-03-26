@@ -59,6 +59,41 @@ void EmpListNode::ListInsert(EmpListNode* pos, Worker* x)
 	pos->prev = newNode;
 }
 
+// 双向链表删除pos位置的节点
+void EmpListNode::ListErase(EmpListNode* pos)
+{
+	assert(pos);
+
+	EmpListNode* posPrev = pos->prev;
+	EmpListNode* posNext = pos->next;
+
+	posPrev->next = posNext;
+	posNext->prev = posPrev;
+
+	delete pos;
+	pos = NULL;
+}
+
+// 双向链表查找
+EmpListNode* EmpListNode::ListFind(EmpListNode* phead, int x)
+{
+	assert(phead);
+
+	EmpListNode* cur = phead->next;
+
+	while (cur != phead)
+	{
+		if (cur->worker->m_Id == x)
+		{
+			return cur;
+		}
+
+		cur = cur->next;
+	}
+
+	return NULL;
+}
+
 // 双向链表打印
 void EmpListNode::ListPrint(EmpListNode* phead)
 {
