@@ -8,6 +8,10 @@ Employee::Employee(int id, string name, int dId)
 	this->m_DeptId = dId;
 }
 
+Employee::~Employee()
+{
+}
+
 void Employee::showInfo()
 {
 	cout << "Ö°¹¤±àºÅ£º " << this->m_Id

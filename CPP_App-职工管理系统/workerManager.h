@@ -31,6 +31,12 @@ public:
 	//删除职工
 	void Del_Emp();
 
+	//查找职工
+	void Find_Emp();
+
+	//修改职工
+	void Mod_Emp();
+
 	//显示职工
 	void Show_Emp();
 

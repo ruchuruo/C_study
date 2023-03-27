@@ -9,6 +9,10 @@ Boss::Boss(int id, string name, int dId)
 
 }
 
+Boss::~Boss()
+{
+}
+
 void Boss::showInfo()
 {
 	cout << "Ö°¹¤±àºÅ£º " << this->m_Id

@@ -19,6 +19,9 @@ public:
 	// 获取next节点
 	EmpListNode* getNextNode();
 
+	// 获取worker数据
+	Worker* getData();
+
 	// 双向链表初始化
 	EmpListNode* ListInit();
 
@@ -43,8 +46,11 @@ public:
 	// 双向链表头删
 	void ListPopFront(EmpListNode* phead);
 
-	// 双向链表查找
+	// 双向链表查找 按职工编号查找
 	EmpListNode* ListFind(EmpListNode* phead, int x);
+
+	// 双向链表查找 按姓名查找
+	EmpListNode* ListFind(EmpListNode* phead, string x);
 
 	// 双向链表在pos的前面进行插入
 	void ListInsert(EmpListNode* pos, Worker* x);

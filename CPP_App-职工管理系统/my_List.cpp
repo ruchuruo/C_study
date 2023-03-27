@@ -17,6 +17,12 @@ EmpListNode* EmpListNode::getNextNode()
 	return next;
 }
 
+// 获取worker数据
+Worker* EmpListNode::getData()
+{
+	return worker;
+}
+
 // 双向链表初始化
 EmpListNode* EmpListNode::ListInit()
 {
@@ -70,11 +76,12 @@ void EmpListNode::ListErase(EmpListNode* pos)
 	posPrev->next = posNext;
 	posNext->prev = posPrev;
 
+	delete pos->getData();
 	delete pos;
 	pos = NULL;
 }
 
-// 双向链表查找
+// 双向链表查找 按职工编号查找
 EmpListNode* EmpListNode::ListFind(EmpListNode* phead, int x)
 {
 	assert(phead);
@@ -84,6 +91,26 @@ EmpListNode* EmpListNode::ListFind(EmpListNode* phead, int x)
 	while (cur != phead)
 	{
 		if (cur->worker->m_Id == x)
+		{
+			return cur;
+		}
+
+		cur = cur->next;
+	}
+
+	return NULL;
+}
+
+// 双向链表查找 按姓名查找
+EmpListNode* EmpListNode::ListFind(EmpListNode* phead, string x)
+{
+	assert(phead);
+
+	EmpListNode* cur = phead->next;
+
+	while (cur != phead)
+	{
+		if (cur->worker->m_Name == x)
 		{
 			return cur;
 		}

@@ -15,6 +15,7 @@ class Boss :public Worker
 public:
 
 	Boss(int id, string name, int dId);
+	~Boss();
 
 	//显示个人信息
 	virtual void showInfo();

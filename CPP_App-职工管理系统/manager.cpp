@@ -9,6 +9,10 @@ Manager::Manager(int id, string name, int dId)
 
 }
 
+Manager::~Manager()
+{
+}
+
 void Manager::showInfo()
 {
 	cout << "Ö°¹¤±àºÅ£º " << this->m_Id

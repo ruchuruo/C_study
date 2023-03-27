@@ -15,6 +15,7 @@ class Manager :public Worker
 public:
 
 	Manager(int id, string name, int dId);
+	~Manager();
 
 	//显示个人信息
 	virtual void showInfo();

@@ -13,6 +13,10 @@ class Worker
 {
 public:
 
+	virtual ~Worker()
+	{
+	}
+
 	//显示个人信息
 	virtual void showInfo() = 0;
 

@@ -35,9 +35,13 @@ void test1()
 			break;
 
 		case 4: //修改职工
+			wm.Mod_Emp();
 			break;
+
 		case 5: //查找职工
+			wm.Find_Emp();
 			break;
+
 		case 6: //排序职工
 			break;
 		case 7: //清空文件
@@ -102,19 +106,35 @@ int main()
 
 	WorkerManager wm;
 
-	// +
+	// 添加
 	wm.Add_Emp();
 	wm.Add_Emp();
 	wm.Add_Emp();
 
 	wm.Show_Emp();
 
-	// -
-	wm.Del_Emp();
-	wm.Show_Emp();
+	// 删除
+	//wm.Del_Emp();
+	//wm.Show_Emp();
+	//wm.Del_Emp();
+	//wm.Show_Emp();
 
-	wm.Del_Emp();
-	wm.Show_Emp();
+	// 查找
+	//wm.Find_Emp();
+	//wm.Find_Emp();
+	//wm.Find_Emp();
+
+	// 修改
+	//wm.Mod_Emp();
+	//wm.Show_Emp();
+	//wm.Mod_Emp();
+	//wm.Show_Emp();
+	//wm.Mod_Emp();
+	//wm.Show_Emp();
+	//wm.Mod_Emp();
+	//wm.Show_Emp();
+	//wm.Mod_Emp();
+	//wm.Show_Emp();
 
 	return 0;
 }
