@@ -43,7 +43,9 @@ void test1()
 			break;
 
 		case 6: //排序职工
+			wm.Sort_Emp();
 			break;
+
 		case 7: //清空文件
 			break;
 
@@ -110,6 +112,8 @@ int main()
 	wm.Add_Emp();
 	wm.Add_Emp();
 	wm.Add_Emp();
+	wm.Add_Emp();
+	wm.Add_Emp();
 
 	wm.Show_Emp();
 
@@ -135,6 +139,12 @@ int main()
 	//wm.Show_Emp();
 	//wm.Mod_Emp();
 	//wm.Show_Emp();
+
+	// 排序
+	wm.Sort_Emp();
+	wm.Show_Emp();
+	wm.Sort_Emp();
+	wm.Show_Emp();
 
 	return 0;
 }

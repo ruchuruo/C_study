@@ -200,6 +200,12 @@ void WorkerManager::Mod_Emp()
 	m_EmpNum--;
 }
 
+//排序职工
+void WorkerManager::Sort_Emp()
+{
+	en.ListBubbleSort(m_EmpListPhead, m_EmpNum);
+}
+
 //显示职工
 void WorkerManager::Show_Emp()
 {

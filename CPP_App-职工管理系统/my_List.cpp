@@ -3,7 +3,7 @@
 
 /*======== ======== ======== ========*/
 
-EmpListNode::EmpListNode():next(NULL), prev(NULL), worker(NULL)
+EmpListNode::EmpListNode():next(NULL), prev(NULL), worker(NULL), sort(0)
 {
 }
 
@@ -135,6 +135,79 @@ void EmpListNode::ListPrint(EmpListNode* phead)
 	}
 
 	cout << endl;
+}
+
+// 双向链表冒泡排序
+void EmpListNode::ListBubbleSort(EmpListNode* phead, int empNum)
+{
+	EmpListNode* cur = phead->next;
+
+	if (sort == 0)
+	{
+		// 0小→大
+		
+		// 开始排序
+		// 排序总轮数 = 元素个数 - 1
+		for (int i = 0; i < empNum - 1; i++)
+		{
+			// 每轮对比次数 = 元素个数 - 排序轮数 - 1
+			for (int j = 0; j < empNum - 1 - i; j++)
+			{
+				if (cur != phead && cur->next != phead)
+				{
+					if (cur->worker->m_Id > cur->next->worker->m_Id)
+					{
+						Worker* tmpWorker = cur->worker;
+						cur->worker = cur->next->worker;
+						cur->next->worker = tmpWorker;
+					}
+				}
+				else
+				{
+					// 跳过头后需要补次数
+					j--;
+					j--;
+				}
+
+				cur = cur->next;
+			}
+		}
+
+		sort = 1;
+	}
+	else
+	{
+		// 1大→小
+
+		// 开始排序
+		// 排序总轮数 = 元素个数 - 1
+		for (int i = 0; i < empNum - 1; i++)
+		{
+			// 每轮对比次数 = 元素个数 - 排序轮数 - 1
+			for (int j = 0; j < empNum - 1 - i; j++)
+			{
+				if (cur != phead && cur->next != phead)
+				{
+					if (cur->worker->m_Id < cur->next->worker->m_Id)
+					{
+						Worker* tmpWorker = cur->worker;
+						cur->worker = cur->next->worker;
+						cur->next->worker = tmpWorker;
+					}
+				}
+				else
+				{
+					// 跳过头后需要补次数
+					j--;
+					j--;
+				}
+
+				cur = cur->next;
+			}
+		}
+
+		sort = 0;
+	}
 }
 
 /*======== ======== ======== ========*/

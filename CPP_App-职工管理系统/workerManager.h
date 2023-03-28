@@ -37,6 +37,9 @@ public:
 	//修改职工
 	void Mod_Emp();
 
+	//排序职工
+	void Sort_Emp();
+
 	//显示职工
 	void Show_Emp();
 

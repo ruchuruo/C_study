@@ -58,9 +58,15 @@ public:
 	// 双向链表删除pos位置的节点
 	void ListErase(EmpListNode* pos);
 
+	// 双向链表冒泡排序
+	void ListBubbleSort(EmpListNode* phead, int empNum);
+
 private:
 	int h;
+
 	Worker* worker;
+
+	int sort;// 排序，0小→大，1大→小
 
 	EmpListNode* next;
 	EmpListNode* prev;
