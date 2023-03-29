@@ -111,9 +111,9 @@ int main()
 	// Ìí¼Ó
 	wm.Add_Emp();
 	wm.Add_Emp();
-	wm.Add_Emp();
-	wm.Add_Emp();
-	wm.Add_Emp();
+	//wm.Add_Emp();
+	//wm.Add_Emp();
+	//wm.Add_Emp();
 
 	wm.Show_Emp();
 
@@ -141,10 +141,16 @@ int main()
 	//wm.Show_Emp();
 
 	// ÅÅÐò
-	wm.Sort_Emp();
-	wm.Show_Emp();
-	wm.Sort_Emp();
-	wm.Show_Emp();
+	//wm.Sort_Emp();
+	//wm.Show_Emp();
+	//wm.Sort_Emp();
+	//wm.Show_Emp();
+
+	// É¾³ýËùÓÐ
+	wm.Clean_File();
+	//wm.Add_Emp();
+	//wm.Show_Emp();
+	wm.exitSystem();
 
 	return 0;
 }

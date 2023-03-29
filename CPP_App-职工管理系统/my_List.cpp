@@ -33,6 +33,7 @@ EmpListNode* EmpListNode::ListInit()
 	phead->prev = phead;
 
 	phead->h = 666;
+	phead->worker = NULL;
 
 	return phead;
 }
@@ -47,6 +48,53 @@ EmpListNode* EmpListNode::BuyListNode(Worker* x)
 	newNode->prev = NULL;
 
 	return newNode;
+}
+
+// 双向链表销毁
+void EmpListNode::ListDestroy(EmpListNode* phead)
+{
+	assert(phead);
+
+	EmpListNode* cur = phead->next;
+
+	while (cur != phead)
+	{
+		EmpListNode* curNext = cur->next;
+		
+		delete cur->getData();
+		delete cur;
+
+		cur = curNext;
+	}
+
+	delete phead->getData();
+	delete phead;
+	phead = NULL;
+}
+
+// 双向链表清空(保留头)
+void EmpListNode::ListClear(EmpListNode* phead)
+{
+	assert(phead);
+
+	EmpListNode* cur = phead->next;
+
+	while (cur != phead)
+	{
+		EmpListNode* curNext = cur->next;
+
+		delete cur->getData();
+		delete cur;
+
+		cur = curNext;
+	}
+
+	//delete phead->getData();
+	//delete phead;
+	//phead = NULL;
+
+	phead->next = phead;
+	phead->prev = phead;
 }
 
 // 双向链表在pos的前面进行插入

@@ -31,6 +31,9 @@ public:
 	// 双向链表销毁
 	void ListDestroy(EmpListNode* phead);
 
+	// 双向链表清空(保留头)
+	void ListClear(EmpListNode* phead);
+
 	// 双向链表打印
 	void ListPrint(EmpListNode* phead);
 

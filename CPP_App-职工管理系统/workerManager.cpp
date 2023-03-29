@@ -10,6 +10,7 @@ WorkerManager::WorkerManager():initialization(0), m_EmpNum(0)
 
 WorkerManager::~WorkerManager()
 {
+	//en.ListDestroy(m_EmpListPhead);
 }
 
 // 显示菜单
@@ -31,7 +32,7 @@ void WorkerManager::ShowMenu()
 // 退出管理程序
 void WorkerManager::exitSystem()
 {
-
+	en.ListDestroy(m_EmpListPhead);
 }
 
 // 增加职工
@@ -204,6 +205,13 @@ void WorkerManager::Mod_Emp()
 void WorkerManager::Sort_Emp()
 {
 	en.ListBubbleSort(m_EmpListPhead, m_EmpNum);
+}
+
+//清空文件
+void WorkerManager::Clean_File()
+{
+	en.ListClear(m_EmpListPhead);
+	m_EmpNum = 0;
 }
 
 //显示职工

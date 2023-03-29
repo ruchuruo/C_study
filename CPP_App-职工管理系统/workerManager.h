@@ -40,6 +40,9 @@ public:
 	//排序职工
 	void Sort_Emp();
 
+	//清空文件
+	void Clean_File();
+
 	//显示职工
 	void Show_Emp();
 
