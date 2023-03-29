@@ -26,7 +26,7 @@ void WorkerManager::ShowMenu()
 	cout << "|            5.  查找职工信息   -     -" << endl;
 	cout << "|            6.  按照编号排序      -" << endl;
 	cout << "|            7.  清空所有文档   -     -" << endl;
-	cout << "● --------  -------- --------  -      -" << endl;
+	cout << "● --------  -------- --------  -      " << m_EmpNum << endl;
 }
 
 // 退出管理程序
@@ -83,11 +83,25 @@ void WorkerManager::Add_Emp()
 //删除职工
 void WorkerManager::Del_Emp()
 {
+	if (m_EmpNum == 0)
+	{
+		cout << "管理系统为空" << endl;
+		return;
+	}
+
 	cout << "删除职工-职工编号>";
 	int tmpId;// 职工编号
 	cin >> tmpId;
 
-	en.ListErase(en.ListFind(m_EmpListPhead, tmpId));
+	EmpListNode* retNode = en.ListFind(m_EmpListPhead, tmpId);
+
+	if (retNode == NULL)
+	{
+		cout << "未找到" << endl;
+		return;
+	}
+
+	en.ListErase(retNode);
 
 	m_EmpNum--;
 }
@@ -95,6 +109,12 @@ void WorkerManager::Del_Emp()
 //查找职工
 void WorkerManager::Find_Emp()
 {
+	if (m_EmpNum == 0)
+	{
+		cout << "管理系统为空" << endl;
+		return;
+	}
+
 	cout << "查找方式(1.按职工编号查找 2.按姓名查找)>";
 	int select = 0;
 	cin >> select;
@@ -146,6 +166,12 @@ void WorkerManager::Find_Emp()
 //修改职工
 void WorkerManager::Mod_Emp()
 {
+	if (m_EmpNum == 0)
+	{
+		cout << "管理系统为空" << endl;
+		return;
+	}
+
 	cout << "修改 职工编号>";
 	int tmpId;
 	cin >> tmpId;
@@ -175,19 +201,19 @@ void WorkerManager::Mod_Emp()
 	switch (deptId)
 	{
 	case 1:
-		worker = new Employee(tmpId, name, deptId);
+		worker = new Employee(id, name, deptId);
 		en.ListInsert(m_EmpListPhead->getNextNode(), worker);
 		m_EmpNum++;
 		break;
 
 	case 2:
-		worker = new Manager(tmpId, name, deptId);
+		worker = new Manager(id, name, deptId);
 		en.ListInsert(m_EmpListPhead->getNextNode(), worker);
 		m_EmpNum++;
 		break;
 
 	case 3:
-		worker = new Boss(tmpId, name, deptId);
+		worker = new Boss(id, name, deptId);
 		en.ListInsert(m_EmpListPhead->getNextNode(), worker);
 		m_EmpNum++;
 		break;
@@ -204,6 +230,12 @@ void WorkerManager::Mod_Emp()
 //排序职工
 void WorkerManager::Sort_Emp()
 {
+	if (m_EmpNum == 0)
+	{
+		cout << "管理系统为空" << endl;
+		return;
+	}
+
 	en.ListBubbleSort(m_EmpListPhead, m_EmpNum);
 }
 
@@ -217,6 +249,12 @@ void WorkerManager::Clean_File()
 //显示职工
 void WorkerManager::Show_Emp()
 {
+	if (m_EmpNum == 0)
+	{
+		cout << "管理系统为空" << endl;
+		return;
+	}
+
 	en.ListPrint(m_EmpListPhead);
 }
 

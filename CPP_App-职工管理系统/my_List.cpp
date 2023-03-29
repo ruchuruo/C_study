@@ -213,12 +213,14 @@ void EmpListNode::ListBubbleSort(EmpListNode* phead, int empNum)
 				else
 				{
 					// 跳过头后需要补次数
-					j--;
-					j--;
+					//j--;
+					//j--;
 				}
 
 				cur = cur->next;
 			}
+
+			cur = phead->next;
 		}
 
 		sort = 1;
@@ -246,12 +248,14 @@ void EmpListNode::ListBubbleSort(EmpListNode* phead, int empNum)
 				else
 				{
 					// 跳过头后需要补次数
-					j--;
-					j--;
+					//j--;
+					//j--;
 				}
 
 				cur = cur->next;
 			}
+
+			cur = phead->next;
 		}
 
 		sort = 0;
