@@ -66,6 +66,12 @@ void test1()
 			wm.Clean_File();
 			break;
 
+		case 8: //读文件
+			break;
+
+		case 9: //写文件
+			break;
+
 		case 0: //退出系统
 			wm.exitSystem();
 			break;
@@ -122,6 +128,7 @@ void test4()
 	// 添加
 	wm.Add_Emp();
 	wm.Add_Emp();
+	wm.Add_Emp();
 	//wm.Add_Emp();
 	//wm.Add_Emp();
 	//wm.Add_Emp();
@@ -158,21 +165,27 @@ void test4()
 	//wm.Show_Emp();
 
 	// 删除所有
-	wm.Clean_File();
+	//wm.Clean_File();
 	//wm.Add_Emp();
 	//wm.Show_Emp();
-	wm.exitSystem();
+	//wm.exitSystem();
+
+	// 写文件
+	wm.Write_Emp();
+
+	// 读文件
+	wm.Read_Emp();
 }
 
 int main()
 {
-	test1();
+	//test1();
 
 	//test2();
 
 	//test3();
 
-	//test4();
+	test4();
 
 	return 0;
 }

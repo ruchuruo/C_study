@@ -5,6 +5,8 @@
 */
 
 #include <iostream>
+#include <fstream>
+#include <io.h>
 #include "worker.h"
 #include "employee.h"
 #include "manager.h"
@@ -13,6 +15,7 @@
 
 using namespace std;
 
+#define DATAFILE "workerManagerData.txt"
 
 class WorkerManager
 {
@@ -45,6 +48,12 @@ public:
 
 	//显示职工
 	void Show_Emp();
+
+	//读文件
+	void Read_Emp();
+
+	//写文件
+	void Write_Emp();
 
 	// 设置 员工链表头
 	void setEmpListPhead(EmpListNode* EmpListPhead);

@@ -1,6 +1,53 @@
 
 #include "workerManager.h";
 
+static int createFile()
+{
+	if (_access(DATAFILE, 0) != 0)
+	{
+		// 文件 不 存在
+
+		char select;
+		cout << "数据文件不存在 是否创建文件(y/n)>";
+		cin >> select;
+
+		if (select != 89 && select != 121)
+		{
+			cout << "这将无法保存数据 是否创建文件(y/n)>";
+			cin >> select;
+
+			if (select != 89 && select != 121)
+			{
+				return 0;
+			}
+			else
+			{
+				//FILE* pf = fopen(DATAFILE, "w");
+				//fclose(pf);
+				//pf = NULL;
+				//return 1;
+
+				ofstream ofs;
+				ofs.open(DATAFILE, ios::out | ios::binary);
+				ofs.close();
+				return 1;
+			}
+		}
+
+		//FILE* pf = fopen(DATAFILE, "w");
+		//fclose(pf);
+		//pf = NULL;
+		//return 1;
+
+		ofstream ofs;
+		ofs.open(DATAFILE, ios::out | ios::binary);
+		ofs.close();
+		return 1;
+	}
+
+	return 1;
+}
+
 
 
 WorkerManager::WorkerManager():initialization(0), m_EmpNum(0)
@@ -26,6 +73,8 @@ void WorkerManager::ShowMenu()
 	cout << "|            5.  查找职工信息   -     -" << endl;
 	cout << "|            6.  按照编号排序      -" << endl;
 	cout << "|            7.  清空所有文档   -     -" << endl;
+	cout << "|            8.  读取员工数据      -" << endl;
+	cout << "|            9.  保存员工数据   -     -" << endl;
 	cout << "● --------  -------- --------  -      " << m_EmpNum << endl;
 }
 
@@ -256,6 +305,107 @@ void WorkerManager::Show_Emp()
 	}
 
 	en.ListPrint(m_EmpListPhead);
+}
+
+//读文件
+void WorkerManager::Read_Emp()
+{
+	if (initialization != 0)
+	{
+		cout << "已经读取过" << endl;
+		return;
+	}
+
+	if (_access(DATAFILE, 0) != 0)
+	{
+		cout << "数据文件不存在" << endl;
+		return;
+	}
+
+	ifstream ifs;
+
+	ifs.open(DATAFILE, ios::in | ios::binary);
+	if (!ifs.is_open())
+	{
+		cout << "文件打开失败" << endl;
+		return;
+	}
+
+	// =====================================
+	
+	//ifs.read((char*)&p, sizeof(Person));
+	
+	Worker* worker = NULL;
+	Worker* tmp = new Employee(0, 0, 0);
+
+	switch (tmp->m_DeptId)
+	{
+	case 1:
+		//worker = new Employee(tmpId, tmpName, tmpDeptId);
+		worker = new Employee(tmp->m_Id, tmp->m_Name, tmp->m_DeptId);
+		en.ListInsert(m_EmpListPhead->getNextNode(), worker);
+		m_EmpNum++;
+		break;
+
+	case 2:
+		worker = new Manager(tmp->m_Id, tmp->m_Name, tmp->m_DeptId);
+		en.ListInsert(m_EmpListPhead->getNextNode(), worker);
+		m_EmpNum++;
+		break;
+
+	case 3:
+		worker = new Boss(tmp->m_Id, tmp->m_Name, tmp->m_DeptId);
+		en.ListInsert(m_EmpListPhead->getNextNode(), worker);
+		m_EmpNum++;
+		break;
+
+	default:
+		cout << "添加失败" << endl;
+		break;
+	}
+
+	delete tmp;
+	ifs.close();
+	initialization = 1;
+}
+
+//写文件
+void WorkerManager::Write_Emp()
+{
+	if (createFile() == 0)
+	{
+		return;
+	}
+
+	
+	
+
+	//EmpListNode* cur = phead->next;
+
+	//while (cur != phead)
+	//{
+	//	cur->worker->showInfo();
+	//	cur = cur->next;
+	//}
+
+	ofstream ofs;
+
+	ofs.open(DATAFILE, ios::out | ios::binary);
+
+	EmpListNode* cur = m_EmpListPhead->getNextNode();
+
+	while (cur != m_EmpListPhead)
+	{
+		//cout << cur->getData()->m_Id;
+
+		// 开始写
+		ofs.write((char*)cur->getData(), sizeof(Worker));
+
+		cur = cur->getNextNode();
+	}
+
+	ofs.close();
+	
 }
 
 // 设置 员工链表头
