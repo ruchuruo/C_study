@@ -1,4 +1,7 @@
 
+//#define _CRTDBG_MAP_ALLOC
+//#include <crtdbg.h>
+
 #include "workerManager.h"
 
 #include "worker.h"
@@ -67,9 +70,15 @@ void test1()
 			break;
 
 		case 8: //读文件
+			system("cls");
+			wm.ShowMenu();
+			wm.Read_Emp();
 			break;
 
 		case 9: //写文件
+			system("cls");
+			wm.ShowMenu();
+			wm.Write_Emp();
 			break;
 
 		case 0: //退出系统
@@ -84,108 +93,48 @@ void test1()
 	} while (choice);
 }
 
-void test2()
-{
-	Worker* worker = NULL;
-	worker = new Employee(1, "张三", 1);
-	worker->showInfo();
-	delete worker;
-
-	worker = new Manager(2, "李四", 2);
-	worker->showInfo();
-	delete worker;
-
-	worker = new Boss(3, "王五", 3);
-	worker->showInfo();
-	delete worker;
-}
-
-void test3()
-{
-	Worker* worker = NULL;
-
-	EmpListNode en;
-	EmpListNode* phead = en.ListInit();
-
-	worker = new Employee(1, "张三", 1);
-	en.ListInsert(phead->getNextNode(), worker);
-
-	worker = new Manager(2, "李四", 2);
-	en.ListInsert(phead->getNextNode(), worker);
-
-	worker = new Boss(3, "王五", 3);
-	en.ListInsert(phead->getNextNode(), worker);
-
-	en.ListPrint(phead);
-	
-	delete worker;
-}
-
-void test4()
-{
-	WorkerManager wm;
-
-	// 添加
-	wm.Add_Emp();
-	wm.Add_Emp();
-	wm.Add_Emp();
-	//wm.Add_Emp();
-	//wm.Add_Emp();
-	//wm.Add_Emp();
-
-	wm.Show_Emp();
-
-	// 删除
-	//wm.Del_Emp();
-	//wm.Show_Emp();
-	//wm.Del_Emp();
-	//wm.Show_Emp();
-
-	// 查找
-	//wm.Find_Emp();
-	//wm.Find_Emp();
-	//wm.Find_Emp();
-
-	// 修改
-	//wm.Mod_Emp();
-	//wm.Show_Emp();
-	//wm.Mod_Emp();
-	//wm.Show_Emp();
-	//wm.Mod_Emp();
-	//wm.Show_Emp();
-	//wm.Mod_Emp();
-	//wm.Show_Emp();
-	//wm.Mod_Emp();
-	//wm.Show_Emp();
-
-	// 排序
-	//wm.Sort_Emp();
-	//wm.Show_Emp();
-	//wm.Sort_Emp();
-	//wm.Show_Emp();
-
-	// 删除所有
-	//wm.Clean_File();
-	//wm.Add_Emp();
-	//wm.Show_Emp();
-	//wm.exitSystem();
-
-	// 写文件
-	wm.Write_Emp();
-
-	// 读文件
-	wm.Read_Emp();
-}
-
 int main()
 {
-	//test1();
+	test1();
 
-	//test2();
-
-	//test3();
-
-	test4();
-
+	//_CrtDumpMemoryLeaks();
 	return 0;
 }
+
+
+
+
+
+/*
+	VS检测内存泄漏，定位泄漏代码位置方法 https://blog.csdn.net/mfcing/article/details/42673393
+
+		C Run-Time (CRT)库可以帮助我们检测内存泄露
+
+			定义宏
+				#define _CRTDBG_MAP_ALLOC
+
+			包含相应头文件 
+				#include <crtdbg.h>
+
+			在程序退出地方，加上
+				_CrtDumpMemoryLeaks();
+
+			程序结束后在输出窗口（注意，是输出窗口）查看输出：
+
+				取其中一条详细说明：{453} normal block at 0x02432CA8, 868 bytes long. 
+
+				被{}包围的453就是我们需要的内存泄漏定位值，868 bytes long就是说这个地方有868比特内存没有释放。
+
+			接下来，定位代码位置：
+
+				在main函数第一行加上：_CrtSetBreakAlloc(453); 意思就是在申请453这块内存的位置中断。然后调试程序，……程序中断了。查看调用堆栈
+
+				双击我们的代码调用的最后一个函数，这里是CDbQuery::UpdateDatas()，就定位到了申请内存的代码：
+
+
+			最后要注意一点的，并不是所有normal block一定就有内存泄漏，
+			当你的程序中有全局变量的时候，全局变量的释放示在main函数退出后，
+			所以在main函数最后_CrtDumpMemoryLeaks（）会认为全局申请的内存没有释放，造成内存泄漏的假象。
+			如何规避呢？我通常是把全局变量声明成指针在main函数中new 在main函数中delete，
+			然后再调用_CrtDumpMemoryLeaks（），这样就不会误判了。
+*/
