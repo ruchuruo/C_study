@@ -401,8 +401,6 @@ void WorkerManager::Write_Emp()
 			cout << "È¡Ïû±£´æ" << endl;
 			return;
 		}
-
-		
 	}
 
 	if (createFile() == 0)
