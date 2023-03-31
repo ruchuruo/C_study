@@ -375,31 +375,35 @@ void WorkerManager::Read_Emp()
 //写文件
 void WorkerManager::Write_Emp()
 {
-	//if (m_EmpNum == 0)
-	//{
-	//	char select;
-	//	cout << "管理系统为空 是否保存文件(y/n)>";
-	//	cin >> select;
+	if (m_EmpNum == 0)
+	{
+		char select;
+		cout << "管理系统为空 是否保存文件(y/n)>";
+		cin >> select;
 
-	//	if (select != 78 && select != 110)
-	//	{
-	//		cout << "这将覆盖之前数据 是否保存文件(y/n)>";
-	//		cin >> select;
+		if (select != 78 && select != 110)
+		{
+			cout << "这将覆盖之前数据 是否保存文件(y/n)>";
+			cin >> select;
 
-	//		if (select != 78 && select != 110)
-	//		{
-	//			;
-	//		}
-	//		else
-	//		{
-	//			cout << "取消保存" << endl;
-	//			return;
-	//		}
-	//	}
+			if (select != 78 && select != 110)
+			{
+				;
+			}
+			else
+			{
+				cout << "取消保存" << endl;
+				return;
+			}
+		}
+		else
+		{
+			cout << "取消保存" << endl;
+			return;
+		}
 
-	//	cout << "取消保存" << endl;
-	//	return;
-	//}
+		
+	}
 
 	if (createFile() == 0)
 	{
