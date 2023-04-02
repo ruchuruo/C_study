@@ -528,6 +528,12 @@
     <ClCompile Include="166-20-职工管理系统-清空文件实现.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="167-01-模板-模板的概念.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="168-02-模板-函数模板基本语法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
