@@ -534,6 +534,12 @@
     <ClCompile Include="168-02-模板-函数模板基本语法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="169-03-模板-函数模板注意事项.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9997-模板typename和class区别.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
