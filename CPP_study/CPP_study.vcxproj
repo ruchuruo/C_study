@@ -367,6 +367,7 @@
     <ClCompile Include="17-运算符-算术运算符-取模运算.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="170-04-模板-函数模板案例-数组排序.cpp" />
     <ClCompile Include="18-运算符-算术运算符-递增递减.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -540,6 +540,9 @@
     <ClCompile Include="9997-模板typename和class区别.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="170-04-模板-函数模板案例-数组排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
