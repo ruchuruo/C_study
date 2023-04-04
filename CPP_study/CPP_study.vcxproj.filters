@@ -543,6 +543,15 @@
     <ClCompile Include="170-04-模板-函数模板案例-数组排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="171-05-模板-普通函数与函数模板区别.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="172-06-模板-普通函数与函数模板调用规则.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="173-07-模板-模板的局限性.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">

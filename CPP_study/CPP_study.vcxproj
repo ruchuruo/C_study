@@ -367,7 +367,16 @@
     <ClCompile Include="17-运算符-算术运算符-取模运算.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="170-04-模板-函数模板案例-数组排序.cpp" />
+    <ClCompile Include="170-04-模板-函数模板案例-数组排序.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="171-05-模板-普通函数与函数模板区别.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="172-06-模板-普通函数与函数模板调用规则.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="173-07-模板-模板的局限性.cpp" />
     <ClCompile Include="18-运算符-算术运算符-递增递减.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
