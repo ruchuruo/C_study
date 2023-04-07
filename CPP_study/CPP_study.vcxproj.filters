@@ -564,6 +564,9 @@
     <ClCompile Include="177-11-模板-类模板对象做函数参数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="178-12-模板-类模板与继承.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
