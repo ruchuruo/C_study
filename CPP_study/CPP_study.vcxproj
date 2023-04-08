@@ -391,10 +391,17 @@
     <ClCompile Include="177-11-模板-类模板对象做函数参数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="178-12-模板-类模板与继承.cpp" />
+    <ClCompile Include="178-12-模板-类模板与继承.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="179-13-模板-类模板成员函数类外实现.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="18-运算符-算术运算符-递增递减.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="180-14-模板-类模板分文件编写.cpp" />
+    <ClCompile Include="180-14-模板-类模板分文件编写function.cpp" />
     <ClCompile Include="19-运算符-赋值运算符.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -678,6 +685,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="105-22-类和对象-封装-设计案例2-点和圆关系.h" />
+    <ClInclude Include="180-14-模板-类模板分文件编写.h" />
+    <ClInclude Include="180-14-模板-类模板分文件编写.hpp" />
     <ClInclude Include="55-函数-函数的分文件编写.h" />
     <ClInclude Include="Function.h" />
   </ItemGroup>
