@@ -576,6 +576,9 @@
     <ClCompile Include="180-14-模板-类模板分文件编写function.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="181-15-模板-类模板与友元.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
