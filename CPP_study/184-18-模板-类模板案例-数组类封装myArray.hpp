@@ -13,6 +13,8 @@ public:
 	// 有参构造 (容量)
 	MyArray(int capacity)
 	{
+		//cout << "MyArray 有参构造 调用" << endl;
+
 		this->m_Capacity = capacity;
 		this->m_Size = 0;
 
@@ -23,6 +25,8 @@ public:
 	// 拷贝构造
 	MyArray(const MyArray& arr)
 	{
+		//cout << "MyArray 拷贝构造 调用" << endl;
+
 		// 编译器提供的
 		this->m_Capacity = arr.m_Capacity;
 		this->m_Size = arr.m_Size;
@@ -35,15 +39,52 @@ public:
 		{
 			this->pAddress[i] = arr.pAddress[i];
 		}
+
+		/*
+			关于释放旧数据问题：
+				来自弹幕：个人觉得是因为拷贝构造函数一般是创建对象时用的，刚创建肯定没有东西，所以不需要清除
+		*/
 	}
 
 	// 运算符重载=，防止浅拷贝带来的问题
+	// 返回引用，链式编程，a = b = c
+	MyArray& operator=(const MyArray& arr)
+	{
+		//cout << "MyArray 运算符重载= 调用" << endl;
+
+		// 判断原来堆区是否有数据
+		if (this->pAddress != NULL)
+		{
+			// 如果有先释放
+			delete[]pAddress;
+			pAddress = NULL;
+			this->m_Capacity = 0;
+			this->m_Size = 0;
+		}
+
+		// 深拷贝
+		this->m_Capacity = arr.m_Capacity;
+		this->m_Size = arr.m_Size;
+		this->pAddress = new T[arr.m_Capacity];// 深拷贝
+
+		// 将 arr 中的数据都拷贝过来
+		for (int i = 0; i < this->m_Size; i++)
+		{
+			this->pAddress[i] = arr.pAddress[i];
+		}
+
+		return *this;
+	}
 	
 	// 析构
 	~MyArray()
 	{
+		//cout << "MyArray 析构 调用" << endl;
+
 		if (this->pAddress != NULL)
 		{
+			//cout << "MyArray 析构 调用 释放" << endl;
+
 			// 来自弹幕：这里是对象数组而不是对象指针数组，所以不需要写for循环去释放每一个数组元素
 			delete[]this->pAddress;
 			this->pAddress = NULL;
