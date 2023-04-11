@@ -91,6 +91,53 @@ public:
 		}
 	}
 
+	// 尾插
+	void PushBack(const T& val)
+	{
+		// 判断容量是否满
+		if (this->m_Capacity == this->m_Size)
+		{
+			cout << "满" << endl;
+			return;
+		}
+
+		this->pAddress[this->m_Size] = val;
+		this->m_Size++;
+	}
+
+	// 尾删
+	void PopBack()
+	{
+		// 判断是否有元素
+		if (this->m_Size == 0)
+		{
+			cout << "空" << endl;
+			return;
+		}
+
+		this->m_Size--;
+	}
+
+	// 通过下标的方式访问数组中的元素
+	// 运算符重载[]
+	// 返回引用，链式编程，arr[0] = 100
+	T& operator[](int index)
+	{
+		return this->pAddress[index];
+	}
+
+	// 获取数组容量
+	int getCapacity()
+	{
+		return this->m_Capacity;
+	}
+	
+	// 获取数组大小
+	int getSize()
+	{
+		return this->m_Size;
+	}
+
 private:
 	T* pAddress;	// 数组指针
 	int m_Size;		// 元素个数

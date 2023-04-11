@@ -414,6 +414,7 @@
     </ClCompile>
     <ClCompile Include="183-17-模板-类模板案例-数组类封装（上）.cpp" />
     <ClCompile Include="184-18-模板-类模板案例-数组类封装.cpp" />
+    <ClCompile Include="184-18-模板-类模板案例-数组类封装（下）.cpp" />
     <ClCompile Include="19-运算符-赋值运算符.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
