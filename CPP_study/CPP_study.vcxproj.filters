@@ -591,6 +591,9 @@
     <ClCompile Include="184-18-模板-类模板案例-数组类封装（下）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="185-19-STL初识-STL的基本概念.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
