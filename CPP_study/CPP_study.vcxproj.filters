@@ -594,6 +594,9 @@
     <ClCompile Include="185-19-STL初识-STL的基本概念.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="186-20-STL初识-vector存放内置数据类型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
