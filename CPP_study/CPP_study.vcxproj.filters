@@ -603,6 +603,18 @@
     <ClCompile Include="9996-人物名字.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="188-22-STL初识-容器嵌套容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9995-C++迭代器（STL迭代器）iterator详解.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="189-23-string容器-构造函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="190-24-string容器-赋值操作.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
