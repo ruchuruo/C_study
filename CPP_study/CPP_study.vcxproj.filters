@@ -615,6 +615,9 @@
     <ClCompile Include="190-24-string容器-赋值操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="191-25-string容器-字符串拼接.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
