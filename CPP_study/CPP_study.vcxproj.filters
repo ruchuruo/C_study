@@ -618,6 +618,12 @@
     <ClCompile Include="191-25-string容器-字符串拼接.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="192-26-string容器-字符串查找和替换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="193-27-string容器-字符串比较.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">

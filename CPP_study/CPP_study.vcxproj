@@ -442,7 +442,13 @@
     <ClCompile Include="190-24-string容器-赋值操作.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="191-25-string容器-字符串拼接.cpp" />
+    <ClCompile Include="191-25-string容器-字符串拼接.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="192-26-string容器-字符串查找和替换.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="193-27-string容器-字符串比较.cpp" />
     <ClCompile Include="2-第一个C++程序-C++书写HelloWorld.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
