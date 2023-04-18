@@ -624,6 +624,15 @@
     <ClCompile Include="193-27-string容器-字符串比较.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="194-28-string容器-字符存取.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="195-29-string容器-字符串插入和删除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="196-30-string容器-子串获取.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
