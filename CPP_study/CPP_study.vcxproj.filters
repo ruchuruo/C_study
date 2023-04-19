@@ -633,6 +633,9 @@
     <ClCompile Include="196-30-string容器-子串获取.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="197-31-vector容器-构造函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">

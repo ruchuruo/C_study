@@ -457,7 +457,10 @@
     <ClCompile Include="195-29-string容器-字符串插入和删除.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="196-30-string容器-子串获取.cpp" />
+    <ClCompile Include="196-30-string容器-子串获取.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="197-31-vector容器-构造函数.cpp" />
     <ClCompile Include="2-第一个C++程序-C++书写HelloWorld.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
