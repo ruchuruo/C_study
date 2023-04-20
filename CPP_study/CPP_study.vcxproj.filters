@@ -636,6 +636,9 @@
     <ClCompile Include="197-31-vector容器-构造函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="198-32-vector容器-赋值操作.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
