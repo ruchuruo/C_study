@@ -645,6 +645,12 @@
     <ClCompile Include="200-34-vector容器-插入和删除.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="201-35-vector容器-数据存取.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="202-36-vector容器-互换容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
