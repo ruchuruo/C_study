@@ -110,7 +110,10 @@
     <ClCompile Include="45-栈和队列.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="46-特殊矩阵的压缩存储.c">
+    <ClCompile Include="王道_32-3.4_特殊矩阵的压缩存储.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="王道_33-4.1_1_串的定义和基本操作.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

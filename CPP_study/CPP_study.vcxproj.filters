@@ -663,6 +663,9 @@
     <ClCompile Include="206-40-deque容器-大小操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="207-41-deque容器-插入和删除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">

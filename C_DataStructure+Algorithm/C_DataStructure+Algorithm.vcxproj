@@ -199,7 +199,7 @@
     <ClCompile Include="45-栈和队列.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="46-特殊矩阵的压缩存储.c" />
+    <ClCompile Include="王道_32-3.4_特殊矩阵的压缩存储.c" />
     <ClCompile Include="5-双重循环时间复杂度的计算.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -219,6 +219,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="My_function.c" />
+    <ClCompile Include="王道_33-4.1_1_串的定义和基本操作.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
