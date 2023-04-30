@@ -199,7 +199,9 @@
     <ClCompile Include="45-栈和队列.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="王道_32-3.4_特殊矩阵的压缩存储.c" />
+    <ClCompile Include="王道_32-3.4_特殊矩阵的压缩存储.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="5-双重循环时间复杂度的计算.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
