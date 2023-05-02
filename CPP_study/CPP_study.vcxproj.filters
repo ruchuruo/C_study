@@ -672,6 +672,9 @@
     <ClCompile Include="209-43-deque容器-排序操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="210-44-STL案例1-评委打分.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
