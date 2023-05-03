@@ -675,6 +675,15 @@
     <ClCompile Include="210-44-STL案例1-评委打分.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="211-45-stack容器-基本概念.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9994-栈和堆的生长方向.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="212-46-stack容器-常用接口.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
