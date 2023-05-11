@@ -246,5 +246,14 @@
     <ClCompile Include="LeetCode_125-验证回文串.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_136-只出现一次的数字.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_168-Excel表列名称.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_169-多数元素.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
