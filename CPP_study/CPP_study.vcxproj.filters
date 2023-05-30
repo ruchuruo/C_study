@@ -699,6 +699,9 @@
     <ClCompile Include="217-51-list容器-赋值和交换.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="218-52-list容器-大小操作.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
