@@ -702,6 +702,15 @@
     <ClCompile Include="218-52-list容器-大小操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="219-53-list容器-插入和删除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="220-54-list容器-数据存取.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="221-55-list容器-反转和排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
