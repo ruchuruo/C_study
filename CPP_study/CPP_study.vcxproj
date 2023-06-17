@@ -544,7 +544,10 @@
     <ClCompile Include="220-54-list容器-数据存取.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="221-55-list容器-反转和排序.cpp" />
+    <ClCompile Include="221-55-list容器-反转和排序.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="222-56-list容器-排序案例.cpp" />
     <ClCompile Include="23-运算符-逻辑运算符-或.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

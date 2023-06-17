@@ -711,6 +711,9 @@
     <ClCompile Include="221-55-list容器-反转和排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="222-56-list容器-排序案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">

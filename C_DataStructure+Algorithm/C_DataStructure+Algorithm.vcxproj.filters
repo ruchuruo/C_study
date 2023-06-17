@@ -92,9 +92,6 @@
     <ClCompile Include="29-单链表的实现3.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="995-test2.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="996-test.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -114,6 +111,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="王道_33-4.1_1_串的定义和基本操作.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="王道_34-4.1_2_串的存储结构.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
