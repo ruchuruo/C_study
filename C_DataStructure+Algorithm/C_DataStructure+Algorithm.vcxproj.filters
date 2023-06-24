@@ -116,5 +116,8 @@
     <ClCompile Include="王道_34-4.1_2_串的存储结构.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="王道_35-4.2_1_朴素模式匹配算法.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
