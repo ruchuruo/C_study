@@ -119,5 +119,11 @@
     <ClCompile Include="王道_35-4.2_1_朴素模式匹配算法.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="王道_36-4.2_2_KMP算法.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="王道_37-4.2_3_求next数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
