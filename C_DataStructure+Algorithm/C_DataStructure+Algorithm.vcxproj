@@ -230,7 +230,10 @@
     <ClCompile Include="王道_36-4.2_2_KMP算法.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="王道_37-4.2_3_求next数组.c" />
+    <ClCompile Include="王道_37-4.2_3_求next数组.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="王道_38-4.2_4_KMP算法的进一步优化.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -125,5 +125,8 @@
     <ClCompile Include="王道_37-4.2_3_求next数组.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="王道_38-4.2_4_KMP算法的进一步优化.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
