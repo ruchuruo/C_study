@@ -128,5 +128,8 @@
     <ClCompile Include="王道_38-4.2_4_KMP算法的进一步优化.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="王道_39-5.1.1 树的定义和基本术语.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
