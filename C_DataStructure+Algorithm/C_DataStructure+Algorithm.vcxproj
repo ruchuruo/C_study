@@ -242,7 +242,10 @@
     <ClCompile Include="王道_40-5.1.2 树的性质.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="王道_41-5.2_1_二叉树的定义和基本术语.c" />
+    <ClCompile Include="王道_41-5.2_1_二叉树的定义和基本术语.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="王道_42-5.2_2_二叉树的性质.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
