@@ -714,6 +714,15 @@
     <ClCompile Include="222-56-list容器-排序案例.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="223-57-set容器-构造和赋值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="224-58-set容器-大小和交换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="225-59-set容器-插入和删除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
