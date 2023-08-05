@@ -738,6 +738,21 @@
     <ClCompile Include="230-64-set容器-自定义数据类型指定排序规则.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="231-65-map容器-构造和赋值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="232-66-map容器-大小和交换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="233-67-map容器-插入和删除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="234-68-map容器-查找和统计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="235-69-map容器-排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
