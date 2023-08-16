@@ -589,7 +589,10 @@
     <ClCompile Include="234-68-map容器-查找和统计.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="235-69-map容器-排序.cpp" />
+    <ClCompile Include="235-69-map容器-排序.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="236-70-STL案例2-员工分组.cpp" />
     <ClCompile Include="24-程序流程结构-选择结构-单行if语句.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -753,6 +753,9 @@
     <ClCompile Include="235-69-map容器-排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="236-70-STL案例2-员工分组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
