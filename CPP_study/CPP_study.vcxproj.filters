@@ -759,6 +759,12 @@
     <ClCompile Include="237-71-函数对象-函数对象基本使用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="238-72-谓词-一元谓词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="239-73-谓词-二元谓词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
