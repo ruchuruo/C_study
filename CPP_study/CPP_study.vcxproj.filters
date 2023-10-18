@@ -783,6 +783,15 @@
     <ClCompile Include="245-79-常用遍历算法-find.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="246-80-常用查找算法-find_if.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="247-81-常用查找算法-adjacent_find.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="248-82-常用查找算法-binary_search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
