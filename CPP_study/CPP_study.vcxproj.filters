@@ -798,6 +798,15 @@
     <ClCompile Include="9993-常用代码.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="250-84-常用查找算法-count_if.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="251-85-常用排序算法-sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="252-86-常用排序算法-random_shuffle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
