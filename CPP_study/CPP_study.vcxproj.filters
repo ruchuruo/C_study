@@ -807,6 +807,15 @@
     <ClCompile Include="252-86-常用排序算法-random_shuffle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="253-87-常用排序算法-merge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="254-88-常用排序算法-reverse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="255-89-常用拷贝和替换算法-copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
