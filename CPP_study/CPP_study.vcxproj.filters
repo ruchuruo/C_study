@@ -816,6 +816,30 @@
     <ClCompile Include="255-89-常用拷贝和替换算法-copy.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="256-90-常用拷贝和替换算法-replace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="257-91-常用拷贝和替换算法-replace_if.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="258-92-常用拷贝和替换算法-swap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="259-93-常用算术生成算法-accumulate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="260-94-常用算术生成算法-fill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="261-95-常用集合算法-set_intersection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="262-96-常用集合算法-set_union.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="263-97-常用集合算法-set_difference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
