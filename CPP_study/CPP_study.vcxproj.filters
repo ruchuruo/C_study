@@ -840,6 +840,9 @@
     <ClCompile Include="263-97-常用集合算法-set_difference.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="264-01-演讲比赛流程管理系统-比赛需求分析以及成品展示.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">
