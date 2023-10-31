@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fun.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="speechManager-演讲管理类.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="speaker-选手类.h" />
+    <ClInclude Include="speechManager-演讲管理类.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
