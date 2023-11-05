@@ -65,7 +65,7 @@ static void lottery(vector<int> &v, int num, int from, int to)
 	{
 		int ret_rand =
 			from + rand() % tto;
-		cout << ret_rand << endl;
+		//cout << ret_rand << endl;
 
 		v.push_back(*(vRep.begin() + (ret_rand - 1)));
 
