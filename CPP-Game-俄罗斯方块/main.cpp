@@ -1,5 +1,7 @@
 
 /*
+	https://blog.csdn.net/pzjdoytt/article/details/125325753
+
 	开发日志
 
 		1.创建项目
@@ -19,9 +21,13 @@ P3
 */
 
 #include "Tetris-游戏类.h"
+#include <stdlib.h>
+#include <time.h>
 
 int main(void)
 {
+	//srand(time(NULL));
+
 	Tetris t(20, 10, 10, 10, 10, 10, 78, 30);
 
 	t.play();
