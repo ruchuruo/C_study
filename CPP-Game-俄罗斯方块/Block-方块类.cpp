@@ -25,8 +25,50 @@
 	};
 */
 
+IMAGE* Block::m_Imgs[7] = { NULL, };// 小方块数组初始化
+int Block::m_Size = 100;            // 方块大小初始化
+
 Block::Block()
 {
+	// 只需要初始化一次小方块数组
+	if (this->m_Imgs[0] == NULL)
+	{
+		// 加载图片
+		IMAGE imgTmp;
+		/*
+			使用EasyX库函数中的loadimage函数时而会有该报错。
+			Visual Studio顶栏【调试】→【调试属性】→【配置属性】→【高级】→【高级属性】右【字符集】设置成【使用多字节字符集】即可解决。
+
+			或
+
+			在图片名称前加个字母“L”或“_T（）”即可，示例如下：
+				loadimage(0,L"2.jpg");
+				loadimage(0,_T("2.jpg"));
+		*/
+		//       加载到,     图片地址
+		loadimage(&imgTmp, L"res/tiles.png");
+		
+		// 如果有很多小图片会占用很多存储空间
+		// 图片切割
+
+		// 设置切割对象
+		SetWorkingImage(&imgTmp);
+
+		// 切7刀
+		for (int i = 0; i < 7; i++)
+		{
+			// 给 m_Imgs 数组分配内存
+			m_Imgs[i] = new IMAGE;
+
+			// 切割
+			//       放到,      从X,             到Y, 切割宽,        切割高
+			getimage(m_Imgs[i], i * this->m_Size, 0, this->m_Size, this->m_Size);
+		}
+
+		// 恢复工作图像
+		SetWorkingImage();
+	}
+
 	int blocks[7][4] =
 	{
 		1,3,5,7, // I
@@ -51,6 +93,9 @@ Block::Block()
 		this->m_smallBlocks[i].row = val / 2;
 		this->m_smallBlocks[i].col = val % 2;
 	}
+
+	// 指向图片
+	this->m_Img[this->m_blockType - 1];
 }
 
 Block::~Block()
