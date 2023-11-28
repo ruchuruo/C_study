@@ -81,21 +81,21 @@ Block::Block()
 	};
 
 	// 随机生存一种俄罗斯方块
-	this->m_blockType =
+	this->m_BlockType =
 		1 + rand() % 7;// 1 - 7
 
-	// 初始化 m_smallBlocks
+	// 初始化 m_SmallBlocks
 	for (int i = 0; i < 4; i++)
 	{
-		int val = blocks[m_blockType - 1][i];
+		int val = blocks[m_BlockType - 1][i];
 
 		// 这里是计算小方块的坐标
-		this->m_smallBlocks[i].row = val / 2;
-		this->m_smallBlocks[i].col = val % 2;
+		this->m_SmallBlocks[i].row = val / 2;
+		this->m_SmallBlocks[i].col = val % 2;
 	}
 
 	// 指向图片
-	this->m_Img[this->m_blockType - 1];
+	this->m_Img[this->m_BlockType - 1];
 }
 
 Block::~Block()
@@ -125,4 +125,14 @@ void Block::rotate()
 // 绘制 上边界距离, 下边界距离, 左边界距离, 右边界距离, 方块大小
 void Block::draw(int topMargin, int downMargin, int leftMargin, int rightMargin, int blockSize)
 {
+	// 4个小方块
+	for (int i = 0; i < 4; i++)
+	{
+		// 计算小方块的位置
+		int x = leftMargin + this->m_SmallBlocks[i].col * this->m_Size;
+		int y = topMargin + this->m_SmallBlocks[i].col * this->m_Size;
+
+		// 放置图像
+		putimage(x, y, this->m_Img);
+	}
 }

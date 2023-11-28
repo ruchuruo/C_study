@@ -138,7 +138,9 @@
     <ClInclude Include="Tetris-游戏类.h" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="EasyX_2023大暑版\lib_VC2015-x64\EasyXa.lib" />
+    <Library Include="EasyX_2023大暑版\lib_VC2015-x64\EasyXa.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Library>
     <Library Include="EasyX_2023大暑版\lib_VC2015-x64\EasyXw.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

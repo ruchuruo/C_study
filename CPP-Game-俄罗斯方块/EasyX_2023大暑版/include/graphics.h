@@ -9,7 +9,8 @@
 
 #pragma once
 
-#include <easyx.h>
+//#include <easyx.h>
+#include "easyx.h"
 
 
 

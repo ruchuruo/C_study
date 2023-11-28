@@ -1,9 +1,39 @@
 
 #include "Tetris-游戏类.h"
 
-// 行, 列, 上边界距离, 下边界距离, 左边界距离, 右边界距离, 方块大小, 渲染延时
-Tetris::Tetris(int rows, int cols, int topMargin, int downMargin, int leftMargin, int rightMargin, int blockSize, int delay)
+Tetris::Tetris
+(
+	int rows,       // 行
+	int cols,       // 列
+	int topMargin,  // 上边界距离
+	int downMargin, // 下边界距离
+	int leftMargin, // 左边界距离
+	int rightMargin,// 右边界距离
+	int blockSize,  // 方块大小
+	int delay       // 渲染延时
+):
+	m_Rows(rows),
+	m_Cols(cols),
+	m_TopMargin(topMargin),
+	m_LeftMargin(leftMargin),
+	m_BlockSize(blockSize),
+	m_Delay(delay)
 {
+	// 给 地图 初始化
+	for (int i = 0; i < this->m_Rows; i++)
+	{
+		// 数组 行
+		vector<int> mapRow;
+
+		for (int j = 0; j < this->m_Cols; j++)
+		{
+			// 数组 行 初始化
+			mapRow.push_back(0);
+		}
+
+		// 给 地图 插入数组 行
+		this->m_VGameMap.push_back(mapRow);
+	}
 }
 
 Tetris::~Tetris()

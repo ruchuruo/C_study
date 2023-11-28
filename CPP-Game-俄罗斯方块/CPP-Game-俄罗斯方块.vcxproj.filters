@@ -13,11 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="资源文件\easyx-lib">
-      <UniqueIdentifier>{79524d3d-0fda-476c-9b74-eecf6af6c7c4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="头文件\easyx-h">
       <UniqueIdentifier>{7d688aeb-1a6a-44b8-bba9-f19859deab08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\easyx-lib">
+      <UniqueIdentifier>{0d93c9f4-33f3-48af-a18b-1b7d7358ea99}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
