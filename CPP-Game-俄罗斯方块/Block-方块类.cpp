@@ -26,9 +26,11 @@
 */
 
 IMAGE* Block::m_Imgs[7] = { NULL, };// 小方块数组初始化
-int Block::m_Size = 100;            // 方块大小初始化
+//int Block::m_Size = 100;            // 方块大小初始化
+//int Block::m_SourceBlockSize = 100; // 方块大小初始化
 
-Block::Block()
+Block::Block(int sourceBlockSize):
+	m_SourceBlockSize(sourceBlockSize)// 素材方块大小
 {
 	// 只需要初始化一次小方块数组
 	if (this->m_Imgs[0] == NULL)
@@ -62,7 +64,7 @@ Block::Block()
 
 			// 切割
 			//       放到,      从X,             到Y, 切割宽,        切割高
-			getimage(m_Imgs[i], i * this->m_Size, 0, this->m_Size, this->m_Size);
+			getimage(m_Imgs[i], i * this->m_SourceBlockSize, 0, this->m_SourceBlockSize, this->m_SourceBlockSize);
 		}
 
 		// 恢复工作图像
@@ -95,7 +97,7 @@ Block::Block()
 	}
 
 	// 指向图片
-	this->m_Img[this->m_BlockType - 1];
+	this->m_Img = this->m_Imgs[this->m_BlockType - 1];
 }
 
 Block::~Block()
@@ -129,8 +131,13 @@ void Block::draw(int topMargin, int downMargin, int leftMargin, int rightMargin,
 	for (int i = 0; i < 4; i++)
 	{
 		// 计算小方块的位置
-		int x = leftMargin + this->m_SmallBlocks[i].col * this->m_Size;
-		int y = topMargin + this->m_SmallBlocks[i].col * this->m_Size;
+		//int x = leftMargin + this->m_SmallBlocks[i].col * this->m_Size;
+		//int y = topMargin + this->m_SmallBlocks[i].row * this->m_Size;
+		int x = leftMargin + this->m_SmallBlocks[i].col * blockSize;
+		int y = topMargin + this->m_SmallBlocks[i].row * blockSize;
+
+		// 调整图像大小
+		Resize(this->m_Img, blockSize, blockSize);
 
 		// 放置图像
 		putimage(x, y, this->m_Img);

@@ -2,6 +2,7 @@
 
 #include <vector>
 #include "EasyX_2023´óÊî°æ/include/graphics.h"
+#include "Block-·½¿éÀà.h"
 
 using namespace std;
 

@@ -13,7 +13,7 @@ struct Point
 class Block
 {
 public:
-	Block();
+	Block(int sourceBlockSize);
 	~Block();
 
 	// 下降
@@ -37,5 +37,6 @@ private:
 
 	IMAGE *m_Img;                 // 图像指针，用来指向m_Imgs，因为图片一样，所以不需要很多份
 	static IMAGE *m_Imgs[7];      // 小方块图像指针数组，静态，方块类共用
-	static int m_Size;            // 方块大小
+	//static int m_Size;            // 方块大小
+	int m_SourceBlockSize;        // 素材方块大小，裁剪要用
 };
