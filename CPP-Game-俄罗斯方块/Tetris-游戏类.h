@@ -58,4 +58,7 @@ private:
 	int m_LeftMargin;              // 左边界距离
 	int m_BlockSize;               // 方块大小
 	IMAGE m_Bgimg;                 // 背景图片
+
+	Block* m_CurBlock;             // 当前方块
+	Block* m_NextBlock;            // 下一个方块，预告方块
 };

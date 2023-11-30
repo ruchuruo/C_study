@@ -143,3 +143,9 @@ void Block::draw(int topMargin, int downMargin, int leftMargin, int rightMargin,
 		putimage(x, y, this->m_Img);
 	}
 }
+
+// 获取 小方块图像指针数组，用来 渲染固化的方块时 获取方块类型
+IMAGE** Block::getImgs()
+{
+	return m_Imgs;
+}

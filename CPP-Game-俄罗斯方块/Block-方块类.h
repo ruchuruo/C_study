@@ -31,6 +31,9 @@ public:
 	// 绘制 上边界距离, 下边界距离, 左边界距离, 右边界距离, 方块大小
 	void draw(int topMargin, int downMargin, int leftMargin, int rightMargin, int blockSize);
 
+	// 获取 小方块图像指针数组，用来 渲染固化的方块时 获取方块类型
+	static IMAGE** getImgs();
+
 private:
 	int m_BlockType;              // 方块类型
 	struct Point m_SmallBlocks[4];// 小方块具体位置

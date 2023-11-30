@@ -50,7 +50,7 @@ void Tetris::init()
 	initgraph(800, 600);
 
 	// 加载背景图片
-	loadimage(&this->m_Bgimg, L"res/bg.png");
+	loadimage(&this->m_Bgimg, L"res/bg1.png");
 
 	// 初始化游戏数据
 
@@ -70,11 +70,23 @@ void Tetris::play()
 	// 初始化
 	this->init();
 
+	// 开始游戏前需要先创建方块
+	// 先有预告方块
+	this->m_NextBlock = new Block(100);
+
+	// 当前方块 等于 预告方块
+	this->m_CurBlock = this->m_NextBlock;
+
+	// 之后继续预告方块
+	this->m_NextBlock = new Block(100);
+
+
 	while (true)
 	{
 		// 接收用户输入
 		this->keyEvent();
 
+		// 获取上一次调用该函数间隔了多少毫秒
 		this->m_Timer += this->getDrawDelay();
 
 		if (this->m_Timer > this->m_Delay)
@@ -118,12 +130,49 @@ void Tetris::keyEvent()
 // 渲染游戏画面
 void Tetris::upDateWindow()
 {
+	// 如果图像闪烁可以统一渲染
+	// 开始批量绘制
+	BeginBatchDraw();
+
+
 	// 调用背景图片
 	putimage(0, 0, &this->m_Bgimg);
 
 	// 测试方块显示
-	Block b(100);
-	b.draw(10, 10, 10, 10, 30);
+	//Block b(100);
+	//b.draw(10, 10, 10, 10, 30);
+
+	// 获取 小方块图像指针数组
+	IMAGE** retImgs = Block::getImgs();
+
+	// 已经降落到底部的方块
+	for (int i = 0; i < this->m_Rows; i++)
+	{
+		for (int j = 0; j < this->m_Cols; j++)
+		{
+			// 有方块
+			if (this->m_VGameMap[i][j] != 0)
+			{
+				// 计算固化的方块坐标
+				int x = j * this->m_BlockSize + this->m_LeftMargin;
+				int y = i * this->m_BlockSize + this->m_TopMargin;
+
+				// 渲染固化的方块
+				// 数组中的元素是多少就渲染什么类型的方块
+				putimage(x, y, retImgs[this->m_VGameMap[i][j] - 1]);
+			}
+		}
+	}
+
+	// 当前方块渲染
+	this->m_CurBlock->draw(this->m_TopMargin, NULL, this->m_LeftMargin, NULL, 30);
+
+	// 预告方块渲染
+	this->m_NextBlock->draw(this->m_TopMargin, NULL, this->m_LeftMargin + 700, NULL, 30);
+
+
+	// 结束批量绘制，并执行指定区域内未完成的绘制任务
+	EndBatchDraw();
 }
 
 // 获取上一次调用该函数间隔了多少毫秒
