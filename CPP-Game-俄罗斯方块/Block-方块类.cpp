@@ -82,7 +82,7 @@ Block::Block(int sourceBlockSize):
 		2,3,4,5, // 田
 	};
 
-	// 随机生存一种俄罗斯方块
+	// 随机生成一种俄罗斯方块
 	this->m_BlockType =
 		1 + rand() % 7;// 1 - 7
 
@@ -107,6 +107,11 @@ Block::~Block()
 // 下降
 void Block::drop()
 {
+	for (int i = 0; i < 4; i++)
+	{
+		// 小方块 行++
+		this->m_SmallBlocks[i].row++;
+	}
 }
 
 // 左移
@@ -148,4 +153,61 @@ void Block::draw(int topMargin, int downMargin, int leftMargin, int rightMargin,
 IMAGE** Block::getImgs()
 {
 	return m_Imgs;
+}
+
+// 方块是否在地图里
+bool Block::blockInMap(const vector<vector<int>>& vGameMap)
+{
+	int rows = vGameMap.size();   // 地图行数
+	int cols = vGameMap[0].size();// 地图列数
+
+	// 判断小方块位置
+	for (int i = 0; i < 4; i++)
+	{
+		if
+		(
+			   this->m_SmallBlocks[i].row < 0     // 行小了
+			|| this->m_SmallBlocks[i].row >= rows // 行大了
+			|| this->m_SmallBlocks[i].col < 0     // 列小了
+			|| this->m_SmallBlocks[i].col >= cols // 列大了
+			|| vGameMap
+				[this->m_SmallBlocks[i].row]
+				[this->m_SmallBlocks[i].col] != 0 // 地图位置已经有方块了
+		)
+		{
+			return false;
+		}
+	}
+
+	return true;
+}
+
+// 固化方块
+void Block::solidify(vector<vector<int>>& vGameMap)
+{
+	for (int i = 0; i < 4; i++)
+	{
+		vGameMap
+			[this->m_SmallBlocks[i].row]
+			[this->m_SmallBlocks[i].col] = this->m_BlockType;
+	}
+}
+
+// 重载运算符，用来深拷贝，返回引用 可以连续赋值
+Block& Block::operator=(const Block& otherBlock)
+{
+	// 防止自己赋值给自己
+	if (this == &otherBlock)
+	{
+		return *this;
+	}
+
+	this->m_BlockType = otherBlock.m_BlockType;
+
+	for (int i = 0; i < 4; i++)
+	{
+		this->m_SmallBlocks[i] = otherBlock.m_SmallBlocks[i];
+	}
+
+	return *this;
 }

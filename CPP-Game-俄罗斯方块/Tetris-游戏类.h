@@ -61,4 +61,5 @@ private:
 
 	Block* m_CurBlock;             // 当前方块
 	Block* m_NextBlock;            // 下一个方块，预告方块
+	Block m_BakBlock;              // 备用方块，当 当前方块 位置不正确时恢复，备份上一个合法位置
 };

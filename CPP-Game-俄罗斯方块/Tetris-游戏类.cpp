@@ -20,7 +20,8 @@ Tetris::Tetris
 	m_TopMargin(topMargin),
 	m_LeftMargin(leftMargin),
 	m_BlockSize(blockSize),
-	m_Delay(delay)
+	m_Delay(delay),
+	m_BakBlock(this->m_BlockSize)// 备用方块，方块类创建需要传参
 {
 	// 给 地图 初始化
 	for (int i = 0; i < this->m_Rows; i++)
@@ -203,6 +204,30 @@ int Tetris::getDrawDelay()
 // 下降
 void Tetris::drop()
 {
+	// 下降前保存当前位置
+	this->m_BakBlock = *this->m_CurBlock;
+
+	// 下降
+	this->m_CurBlock->drop();
+
+	// 检查方块位置是否合法
+	//if (!this->m_CurBlock->blockInMap(this->m_VGameMap))
+	if (this->m_CurBlock->blockInMap(this->m_VGameMap) == false)
+	{
+		// 非法
+		// 固化方块，让备用方块来固化
+		this->m_BakBlock.solidify(this->m_VGameMap);
+
+		// 当前方块没用了
+		delete this->m_CurBlock;
+
+		// 需要下一个方块
+		this->m_CurBlock = this->m_NextBlock;
+
+		// 生成新方块
+		this->m_NextBlock = new Block(100);
+	}
+
 }
 
 // 清行

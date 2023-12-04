@@ -1,7 +1,10 @@
 #pragma once
 
+#include <vector>
 //#include "EasyX_2023大暑版/include/easyx.h"
 #include "EasyX_2023大暑版/include/graphics.h"
+
+using namespace std;
 
 struct Point
 {
@@ -33,6 +36,15 @@ public:
 
 	// 获取 小方块图像指针数组，用来 渲染固化的方块时 获取方块类型
 	static IMAGE** getImgs();
+
+	// 方块是否在地图里
+	bool blockInMap(const vector<vector<int>>& vGameMap);
+
+	// 固化方块
+	void solidify(vector<vector<int>>& vGameMap);
+
+	// 重载运算符，用来深拷贝，返回引用 可以连续赋值
+	Block& operator=(const Block& otherBlock);
 
 private:
 	int m_BlockType;              // 方块类型
