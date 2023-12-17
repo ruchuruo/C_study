@@ -48,7 +48,8 @@ Tetris::~Tetris()
 void Tetris::init()
 {
 	// 创建游戏窗口
-	initgraph(800, 600);
+	//initgraph(800, 600);
+	initgraph(1280, 720);
 
 	// 加载背景图片
 	loadimage(&this->m_Bgimg, L"res/bg1.png");
