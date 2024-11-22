@@ -24,5 +24,8 @@
     <ClCompile Include="LeetCode_258-各位相加.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_28-找出字符串中第一个匹配项的下标.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
