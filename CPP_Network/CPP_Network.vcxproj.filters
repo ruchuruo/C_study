@@ -14,4 +14,12 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1-tcp网络要学习哪些内容.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2-从输入网址到网页内容显示期间发生了什么.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
