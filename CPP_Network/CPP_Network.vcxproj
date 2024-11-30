@@ -129,6 +129,10 @@
   <ItemGroup>
     <ClCompile Include="1-tcp网络要学习哪些内容.cpp" />
     <ClCompile Include="2-从输入网址到网页内容显示期间发生了什么.cpp" />
+    <ClCompile Include="3-tcp3次握手流程详解.cpp" />
+    <ClCompile Include="4-tcp4次挥手流程详解.cpp" />
+    <ClCompile Include="5-tcp listen的时候backlog参数的含义.cpp" />
+    <ClCompile Include="6-tcp如何保证顺序传输.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,5 +21,17 @@
     <ClCompile Include="2-从输入网址到网页内容显示期间发生了什么.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="3-tcp3次握手流程详解.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4-tcp4次挥手流程详解.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5-tcp listen的时候backlog参数的含义.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6-tcp如何保证顺序传输.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
