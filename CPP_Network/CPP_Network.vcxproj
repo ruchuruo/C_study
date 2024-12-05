@@ -136,6 +136,7 @@
     <ClCompile Include="106-tcp如何保证顺序传输.cpp" />
     <ClCompile Include="2-1.1 什么是Internet.cpp" />
     <ClCompile Include="3-1.2 网络边缘.cpp" />
+    <ClCompile Include="4-1.3 网络核心.cpp" />
     <ClCompile Include="9999-术语.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
